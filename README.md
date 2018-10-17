@@ -1,3 +1,3 @@
 # VCVTB
 
-In the future VCVTB will become available in this repository.
+In the near future, VCVTB source code will become available in this repository including a manual and examples.
