@@ -1,0 +1,152 @@
+The Book of VCVTB
+
+A manual to get started with the Ventilation Controls Virtual Test Bed
+
+1) What is VCVTB?
+-----------------
+
+VCVTB is an opensource virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. It originated from the doctoral research of ir.arch. Bert Belmans under the supervision of prof.dr.ir.arch Filip Descamps.
+
+2) Why use VCVTB?
+-----------------
+
+Although there are programs that can be combined together to get the same job done using cosimulation they don't have a welldefined workflow. VCVTB provides a dedicated holistic approach which saves modellers the timeconsuming task of combining software programs using cosimulation, while still giving full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. Also, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of semi-probabilistic synthetic users.
+
+3) Hardware Specifications and Software Dependencies
+----------------------------------------------------
+
+VCVTB was tested on a workstation with an Intel®Core™ i7-8700K CPU @ 3.70GHz × 12 processor and 32 GB RAM running Ubuntu 18.04.1 LTS 64 bit. 
+
+For an examined case study building (a detached single family house with 11 rooms in a suburban environment) it was possible to run all CFD calculations overnight. After setup, at least 50 AFN simulations could be run during the course of a working day including the automatic generation of tables and graphs. The time per simulation depends on the complexity of the model (number of zones), the complexity of the control strategy used and the window opening time. 
+
+VCVTB was tested with the software dependencies mentioned below.
+
+
+Python 			(2.7.15rc1) 
+pandas 			(0.22.0)
+pandas-datareader 	(0.6.0)
+plotly 			(3.1.0)
+matplotlib 		(2.2.2)
+numpy 			(1.15.1)
+python-dateutil 	(2.7.3)
+scipy 			(0.19.1)
+Lazarus-Pascal 		(1.8.2) including LazUtils
+SQLAlchemy 		(1.2.10)
+mysql 			(14.14 Distrib 5.7.23)
+mysql-connector 	(2.1.6)
+mysql-utilities 	(1.6.4)
+GNU Octave 		(4.4.1)
+GNU parallel 		(20161222)
+OpenFoam CFD Toolbox 	(3.0.1)
+EnergyPlus 		(custom version based on 8.8.0)
+Paraview 		(5.4.1)
+g++			(7.3.0)
+cmake			(3.0)
+traces			(0.4.2)
+
+4) Set-up
+---------
+
+4.0 Basic Setup
+
+- All files contain generic paths. They should be updated to actual file locations before running VCVTB.
+A procedure to automate this is yet to be implemented.
+
+- A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/2OUT/mysql.
+
+- The behaviour model of Aerts should be aquired from the owner. Updated procedures can be found in the VCVTB/1IN/PEOPLE LIBRARY
+
+- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format and must for now be rebuilt by the user or aquired from the engineering office in question (http://www.daidalospeutz.be). The procedures to generate 3D airflows is included and can be found in VCVTB/4POSTPROCESSING/3DAirflow. 
+
+4.1 Using the Behaviour Model:
+
+Input
+
+The behaviour model is a model to generate energyplus schedules and additional information to allow a better interpretation.
+
+UITLEG Dorien
+
+Output 
+
+The output of the people module is a number of idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file a csv file containing the appliances of the family including their energy rating.
+
+The CombineSchedules.py script combines the seperate idfs for presence, equipment, activity, heat, moisture, carbon dioxide
+
+The ResampleHeatProduction.py script can be used to resample the 10 minute people data from the people model to 1 minute output data for the postprocessing modules. This approach is faster than using the Octave model to generate output data at minute level. The input is te HeatProduction.csv file for a family. The result is a HeatProduction-resampled.csv file
+
+The people folder contains a selection of 7 precreated household types times 20 households per type that were generated using the people model to allow fast simulation. The people model can be used to generate extra households in case this is necessary.
+
+MultiPEOPLE_2_SQL
+ParallelPeople
+
+
+4.2 Using the Airflow Network Model:
+
+Generating Input - Lazarus.
+
+BUILD contains an enhanced version of energyplus for Airflow network simulations
+
+
+PARAMETRICPREPROCESSOR
+
+The parametric preprocessor folder contains an In and Out folder and a ParametricPreprocessor.py script.
+The input file should contain the original idf file with distinct parameter names. The values for these parameters should be defined in the python script. After running the script the output folder contains idf files with all possible combinations
+
+EPW 
+	Location to store weather files
+
+OUTSIDE CO2 and CLOTHING csv file
+
+INPUT
+
+
+
+	CombinedSchedules folder: Should contain all households to add to the ventilationsystems
+	CombinedIDF folder: Temporary folder that is automatically filled and cleaned
+	TestEnergyPlus folder:
+        SELECTVENTILATIONSYSTEMS folder: BackUp folder with all ventilation systems
+	VENTILATIONSYSTEMS folder: Folder with ventilation systems that will be combined in the next run
+	
+	GenerateEnergyPlusInput.py: This script is used to make combine idfs containing household information with idfs containing ventilation system information. The CombinedIDF folder is uses to store intermediate information. The output is stored in the In folder
+	
+        CreateRuns.py: This script is used after the GenerateEnergyPlusInput script to generate corresponding python files and a Runfile.txt. The python files contain serial commands to run EnergyPlus simulations and store them in a MySQL database. The Runfile is an input file for GNU parallel that allows parallel execution of multiple simulations using the command ParallelRun.py ("parallel < Runfile.txt") script. Gnu parallels takes care of using all threads of the processor. Once one thread is ready, the next line in the Runfile.txt is executed untill all simulations are ready.
+
+       
+
+OUTPUT
+        The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
+
+        Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
+
+FORESTS
+
+We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
+
+4.3 Using the CFD Model:
+
+INPUT
+
+OUTPUT
+
+4.4 Using the Posprocessing Modules and interpreting the results:
+
+	EPLUS_2_SQL.py
+	EPLUS_2_SQL_MODES.py
+	EPLUS_2_SQL_MODES_AFTER.py
+        LAZARUS Airflow script
+
+	BENCHMARK folder
+        BOXPLOT folder
+	ROBUSTNESS folder
+
+5) Scientific References
+
+6) Epilogue
+
+7) License Information
+
+VCVTB is licensed under the NonCommercial creative Commons License, CC(nc)
+
+This requires that others who use this work in any way must give you credit the way you request, but not in a way that suggests you endorse them or their use. If they want to use your work without giving you credit or for endorsement purposes, they must get your permission first.
+
+You let others copy, distribute, display, perform, and (unless you have chosen NoDerivatives) modify and use your work for any purpose other than commercially unless they get your permission first.
