@@ -145,8 +145,4 @@ OUTPUT
 
 7) License Information
 
-VCVTB is licensed under the NonCommercial creative Commons License, CC(nc)
-
-This requires that others who use this work in any way must give you credit the way you request, but not in a way that suggests you endorse them or their use. If they want to use your work without giving you credit or for endorsement purposes, they must get your permission first.
-
-You let others copy, distribute, display, perform, and (unless you have chosen NoDerivatives) modify and use your work for any purpose other than commercially unless they get your permission first.
+VCVTB is licensed under a NonCommercial creative Commons License, CC(nc)
