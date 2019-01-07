@@ -1,8 +1,8 @@
 # VCVTB
 
-VCVTB v.1.0.0 will be made available dropwise in this repository, including a manual and example files.
-For now the adapted EnergyPlus Calculation Core is made available.
 
+Until now, VCVTB v.1.0.0 is made available in this repository "as it is". Comments and links will be updated dropwise.
 
+In the meanwhile I thank you for your patience,
 
 Bert Belmans
