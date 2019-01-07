@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="airflow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="58" Y="98"/>
+        <UsageCount Value="171"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\routines\euterperoutines.pas"/>
+        <UnitName Value="EuterpeRoutines"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8392"/>
+        <CursorPos X="37" Y="8410"/>
+        <UsageCount Value="84"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\routines\FastGEO.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3160"/>
+        <CursorPos X="50" Y="3091"/>
+        <UsageCount Value="77"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\routines\CSVRoutines.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="42" Y="5"/>
+        <UsageCount Value="73"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\routines\BasicRoutines.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="100"/>
+        <CursorPos X="18" Y="17"/>
+        <UsageCount Value="59"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\AIRFLOW\C:\lazarus\fpc\3.0.0\source\rtl\objpas\math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="10" Y="123"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\AIRFLOW\C:\lazarus\fpc\3.0.0\source\rtl\objpas\objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="8" Y="35"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\AIRFLOW\E:\Documents\MEGAsync\Euterpe\Euterpev3\routines\csvroutinesbert.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="488"/>
+        <CursorPos X="38" Y="569"/>
+        <UsageCount Value="6"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\AIRFLOW\E:\Documents\MEGAsync\Euterpe\nrpas13\MDIAN2.PAS"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\AIRFLOW\E:\Documents\MEGAsync\Euterpe\nrpas13\MDIAN1.PAS"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="13"/>
+        <UsageCount Value="6"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\AIRFLOW\C:\lazarus\fpc\3.0.0\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="228"/>
+        <CursorPos X="17" Y="259"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\AIRFLOW\C:\lazarus\fpc\3.0.0\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1212"/>
+        <CursorPos X="16" Y="1245"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\processing\translate\translate.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="185"/>
+        <CursorPos X="61" Y="194"/>
+        <UsageCount Value="19"/>
+      </Unit12>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>
