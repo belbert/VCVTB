@@ -7,6 +7,6 @@ Until now, VCVTB v.1.0.0 is made available in this repository "as it is".
 Comments, paths and files will be updated and translated in English on a dropwise basis.
 For privacy reasons current paths and passwords are anonymised. They will be adapted to generic paths in the future.
 
-In the meanwhile I thank you for your patience,
+In the meanwhile take a look around. I thank you for your patience,
 
 Bert Belmans
