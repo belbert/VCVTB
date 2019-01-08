@@ -149,8 +149,9 @@ OUTPUT
 
 *"All models are wrong, but some are useful" (G. Box)*
 
-Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations.
-...
+Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. 
+
+% Awaiting Update
 
 6.0 Licensing
 -----------------
