@@ -1,4 +1,5 @@
 
 # README
 
-Empty at the moment, awaiting updates.
+At the moment the PREPROCESSING folder is empty.
+Awaiting updates.
