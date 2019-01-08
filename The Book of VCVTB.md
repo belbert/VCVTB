@@ -60,6 +60,11 @@ A procedure to automate this is yet to be implemented.
 
 - The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow. However, since it refers to the forementioned routines dependencies must be changed.
 
+4.2 Using the Preprocessing Modules: (Pascal, Python)
+---------
+**_This section is awaiting updates_**
+
+
 4.2 Using the Behaviour Model: (GNU Octave)
 ---------
 **_This section is awaiting updates_**
@@ -134,7 +139,7 @@ INPUT
 
 OUTPUT
 
-4.5 Using the PostProcessing Modules and Interpreting The Results: (MySQL, Python, Pascal)
+4.5 Using the PostProcessing Modules and Interpreting the Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
