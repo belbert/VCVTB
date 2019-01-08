@@ -148,7 +148,7 @@ We are working on an addition to implement random forest based control algorithm
 
 *"All models are wrong, but some are useful" (G. Box)*
 
-Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. An airflow network approach is a simplified representation of reality in which predicted conditions in nodes can approximate the indoor environment but can never fully match it.
+Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. An airflow network approach is a simplified representation of reality in which predicted conditions in nodes can approximate the indoor environment but can never fully match it. 
 
 - VCVTB makes assumptions for flow coefficients and flow exponents based on values that can be found in the scientific literature to create a functional EnergyPlus model. It is the responsibility of the user to evaluate these assumptions on the basis of the specific characteristics of the studied project.
 - Unless the studied building has a very simple geometry and there are few obstacles in the environment, AFN calculations should always be used in combination with a detailed pressure distribution on the building envelope. VCVTB uses simulations in OpenFOAM for this purpose. To use VCVTB in practice CFD generated wind pressure coefficients should be validated with monitoring data.
@@ -160,7 +160,7 @@ Although we believe that the VCVTB methodology may be useful to the field of sim
 -There are indications in the literature that airflownetwork models are also less suitable for modelling single-sided ventilation. However, modified models are also available
 - ...
 
-
+- A different type of limitation is that I am a self-learned programmer. Therefore, it is likely that not all functions are implemented equally efficiently and that additional comments are needed. However, the current implementation does what it should do and I am satisfied with that for the time being.
 
 6.0 Licensing
 -----------------
