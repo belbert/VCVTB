@@ -16,8 +16,8 @@
 
 5) The singularity check was set less strict
 
-code(if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-6 ) {...} was set to
-if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...})
+if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-6 ) {...} was set to
+if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...}
 				
 
 # Changes in DataEnvironment.cc 
@@ -26,13 +26,13 @@ if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...})
 1) updated function WindSpeedAt( Real64 const Z ) in DataEnvironment.cc:
 The standard Energylus Windspeed profile was replaced with an Atmospheric Boudary Layer (ABL) Profile
 
-K = 0.41;
-z0 = 0.03;
-zground = 0;
-Uref = WindSpeed;
-zref = 10;
-Ustar=(K*Uref)/std::log((zref+z0)/z0);
-LocalWindSpeed = (Ustar/K)*std::log((Z-zground+z0)/z0);
+- K = 0.41;
+- z0 = 0.03;
+- zground = 0;
+- Uref = WindSpeed;
+- zref = 10;
+- Ustar=(K*Uref)/std::log((zref+z0)/z0);
+- LocalWindSpeed = (Ustar/K)*std::log((Z-zground+z0)/z0);
 
 # Changes in .idd
 -----
@@ -41,14 +41,14 @@ Maximum numer of iterations in AirflowNetwork:SimulationControl was increased to
 ---------------------------------------------------------------------------------------
 
 AirflowNetwork:SimulationControl,
-N1 , \field Maximum Number of Iterations
-      \type integer
-      \units dimensionless
-      \default 500
-      \minimum> 10
-      \maximum 300000
-      \note Determines the maximum number of iterations used to converge on a solution. If this limit
-      \note is exceeded, the program terminates.
+- N1 , \field Maximum Number of Iterations
+-       \type integer
+-       \units dimensionless
+-       \default 500
+-       \minimum> 10
+-       \maximum 300000
+-       \note Determines the maximum number of iterations used to converge on a solution. If this limit
+-       \note is exceeded, the program terminates.
 
 AirflowNetwork:MultiZone:Surface:Crack was updated to allow scheduled input
 ---------------------------------------------------------------------------------------
