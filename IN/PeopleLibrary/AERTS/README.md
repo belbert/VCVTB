@@ -24,7 +24,8 @@ EXAMPLES:
 - [4 1; 4 3; 1 5]  = two adults between 40y and 54y, one working full-time and one unemployed + 1 child between 12y and 18y going to school 
 
 
-Adaptions and Additions to the Aerts Behaviour Model
+Changes and Additions to the Aerts Behaviour Model
+--------------------------------------------------
 
 New Modules/functions:
 ----------------------
