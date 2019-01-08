@@ -166,6 +166,5 @@ EnergyManagementSystem:Program,
 -       \required-field
   A3 , \field Program Line 2
 -       \type alpha
-  A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16, A17, A18, A19, \note fields as indicated
-  ...
+  A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16, A17, A18, A19 <--->
   A493, A494, A495, A496, A497, A498, A499, A500, A501, A502; \note fields as indicated
