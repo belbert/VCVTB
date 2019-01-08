@@ -83,12 +83,9 @@ The ResampleHeatProduction.py script can be used to resample the 10 minute peopl
 
 The people model can be used to generate a library of households with variable user characteristics and various appliances with fixed or varying energy performance ratings. 
 
-MultiPEOPLE_2_SQL
-ParallelPeople
-
 4.5 Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
-**_This section is awaiting updates_**
+**_This section is under revision_**
 
 **_A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder._**
 
@@ -121,7 +118,7 @@ OUTPUT
 
 The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
 
-Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
+Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other characteristics using the 3D procedures mentioned above.
 
 4.6 PostProcessing Modules and Results: (MySQL, Python, Pascal)
 ---------
