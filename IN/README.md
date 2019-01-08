@@ -36,7 +36,7 @@ AFN Calculations
 
 PostProcessing
 ------------
-If everything went well EnergyPlus output is automatically transferred to MySQL and postprocessing starts automatically. 
+If everything went well EnergyPlus output is automatically transferred to MySQL and PostProcessing is initiated automatically. 
 However, you can comment this out to have more control over the process. 
 
 Note:
