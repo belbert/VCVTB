@@ -1,4 +1,5 @@
- #The Book of VCVTB
+The Book of VCVTB
+-----------------
 
 A manual to get started with the Ventilation Controls Virtual Test Bed
 
