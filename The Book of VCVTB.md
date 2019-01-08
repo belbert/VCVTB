@@ -4,7 +4,7 @@ The Book of VCVTB - a First Overview of Functionalities and Dependencies
 1) What is VCVTB?
 -----------------
 
-VCVTB is an opensource virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. 
+VCVTB is an opensource EnergyPlus based virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. 
 It originated from the doctoral research of ir.arch. Bert Belmans under the supervision of prof.dr.ir.arch Filip Descamps.
 
 2) Why was VCVTB created?
