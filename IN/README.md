@@ -1,8 +1,8 @@
 **_The procedure is awaiting updates_**
 
-The procedure below is a generalized representation of the necessary steps for a complete VCVTB simulation. Specific details per module will be added dropwise.
+The procedure below is a simplified representation of the necessary steps for a complete VCVTB simulation. Specific details per module will be added dropwise.
 
-Generalised Procedure
+Simplified presentation of the calculation steps
 ---------
 
 Preparation and PreProcessing
