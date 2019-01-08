@@ -194,7 +194,7 @@ Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{1
 6) Limitations
 -----------------
 
-"All models are wrong, but some are useful" (G. Box)
+*"All models are wrong, but some are useful" (G. Box)*
 
 Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations.
 ...
