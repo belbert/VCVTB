@@ -7,10 +7,10 @@ The Book of VCVTB - a First Overview of Functionalities and Dependencies
 VCVTB is an opensource virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. 
 It originated from the doctoral research of ir.arch. Bert Belmans under the supervision of prof.dr.ir.arch Filip Descamps.
 
-2) Why use VCVTB?
+2) Why was VCVTB created?
 -----------------
 
-Although there are programs that can be combined together to get the same job done using co-simulation they usually don't have a straightforward workflow. VCVTB provides a dedicated holistic approach which saves modellers the time consuming task of combining software programs for BEM and AFN modelling using co-simulation. VCVTB still gives full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. The user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of semi-probabilistic synthetic users.
+Although there are programs that can be combined together to get the same job done using co-simulation they usually don't have a straightforward workflow. VCVTB provides a dedicated holistic approach which saves modellers the time consuming task of combining software programs for BEM and AFN modelling using co-simulation. VCVTB still gives full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. Moreover, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of synthetic users.
 
 3) Hardware Specifications and Software Dependencies
 ----------------------------------------------------
