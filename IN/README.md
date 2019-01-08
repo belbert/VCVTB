@@ -1,25 +1,25 @@
 HOWTO
 -------------------------------------------------------------------------------------------
-Windows of Linux
+Windows or Linux
 -------------------------------------------------------------------------------------------
 
-1) Maak mensen met Octave       > gebruik GNU Parallel om dit in parallel te doen
+1) Create people in Octave      > Use GNU Parallel to batch create families in parallel
 
-2) CombineSchedules.py          > Combineert peopleschedules, activityschedules etc
+2) CombineSchedules.py          > Combines peopleschedules, activityschedules, CO2schedules...
 
-3) Maak Ventilatiesystemen      > E+ inputfile zonder schedules
+3) Create EMS Control scripts  > E+ inputfile zonder schedules
 
-4) GenerateEnergyPlusInput.py 	> Maakt Inputfiles en Commandfile 
+4) GenerateEnergyPlusInput.py 	> Creates Mixed input files and a Command File
 
 -------------------------------------------------------------------------------------------
 Linux
 -------------------------------------------------------------------------------------------
 
-5) Run.py *** 			> Runt alle idf's in de Commands.txt file in parallel met GNU Parallel
+5) Run.py *** 			> Runs all idf's in Commands.txt in parallel using GNU Parallel
 
-6) DetectSevereErrors.py 	> Geeft een lijst met gecrashte simulaties
+6) DetectSevereErrors.py 	> Generates a list with crashed simulations (Mostly errors are due to convergence issues, adapt the relaxation factors of the crashed simulations)
 
-7) Maak grafieken met plotly   
+7) Create Graphs  
     
 -------------------------------------------------------------------------------------------
 ***
