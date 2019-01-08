@@ -28,7 +28,8 @@ AFN Calculations
 ------------
 9) Make sure that all input files are in the correct folders. If they are you can use GenerateEnergyPlusInput.py to create a mixed input file containing people, Cp values, AFN network components, control systems... and a Command.txt File for running
 
-10) Run.py *** > Runs all idf's in Commands.txt in parallel using GNU Parallel. You can specify the numbers of threads to use. Without further specification all threads are used. 
+10a) XX.py *** > Runs a pecific idf file
+10b) idf's in Commands.txt in parallel using GNU Parallel. You can specify the numbers of threads to use. Without further specification all threads are used. 
 
 11) After running use DetectSevereErrors.py to Generate a list with crashed simulations. Mostly errors are due to convergence issues, adapt the AFN convergence limits and rerun the crashed simulations if required.
 
@@ -40,7 +41,7 @@ If everything went well you are ready to start postprocessing using the postproc
 Note:
 ------------
 
-1) VCVTB mixes the simulation order automatically to quickly have output for different ventilation strategy/family combinations. If you have other requirements you have to adjust it in the code. EnergyPlus AFN Calculations are executed in the order specified in the run.txt file
+1) VCVTB mixes the simulation order automatically to quickly have output for different ventilation strategy/family combinations. If you have other requirements you have to adjust it in the code. EnergyPlus AFN Calculations are executed in the order specified in the Runfile.txt file in the in folder.
 
 -------------------------------------------------------------------------------------------
 
