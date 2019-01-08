@@ -62,6 +62,7 @@ A procedure to automate this is yet to be implemented.
 
 4.2 Using the Behaviour Model: (GNU Octave)
 ---------
+% Awaiting Update
 
 Input
 
@@ -85,6 +86,7 @@ ParallelPeople
 
 4.3 Using the Airflow Network Model: (Custom EnergyPlus Version)
 ---------
+% Awaiting Update
 
 Generating Input - Lazarus.
 
@@ -128,6 +130,7 @@ We are working on an AI addition to VCVTB to implement random forest based contr
 
 4.4 Using the CFD Model: (OpenFOAM)
 ---------
+% Awaiting Update
 
 INPUT
 
@@ -135,6 +138,8 @@ OUTPUT
 
 4.5 Using the Posprocessing Modules and interpreting the results: (MySQL, Python, Pascal)
 ---------
+% Awaiting Update
+
 	EPLUS_2_SQL.py
 	EPLUS_2_SQL_MODES.py
 	EPLUS_2_SQL_MODES_AFTER.py
@@ -146,12 +151,11 @@ OUTPUT
 
 5.0 Limitations
 -----------------
+% Awaiting Update
 
 *"All models are wrong, but some are useful" (G. Box)*
 
 Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. 
-
-% Awaiting Update
 
 6.0 Licensing
 -----------------
