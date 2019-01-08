@@ -36,8 +36,8 @@ AFN Calculations
 
 PostProcessing
 ------------
-If everything went well EnergyPlus output is automatically transferred to MySQL.
-Automatic PostProcessing in the form of VCVTB Report Sheets can be performed. However, I usually comment it out to have more control over the process. 
+If everything went well and if MySQL is correctly linked (Make sure the MySQL server is running!) EnergyPlus output is automatically transferred to MySQL.
+Automatic PostProcessing in the form of VCVTB Report Sheets can be performed. I usually comment this out to have more control over the process unless I want to do comparative studies. 
 
 Additional postprocessing:
     
