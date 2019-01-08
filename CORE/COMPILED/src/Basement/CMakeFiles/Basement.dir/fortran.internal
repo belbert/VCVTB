@@ -1,0 +1,11 @@
+# The fortran modules provided by this target.
+provides
+ base3d
+ basementsimdata
+ dataglobals
+ dataprecisionglobals
+ datastringglobals
+ epwprecisionglobals
+ epwread
+ general
+ inputprocessor
