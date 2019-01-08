@@ -16,7 +16,7 @@ Preparations
 
 4) Use CombineSchedules.py to make a single file that includes peopleschedules, activityschedules, CO2schedules... from the output of the behaviour module
 
-5) Revise the auto-created EnergyPlus .idf file with the AFN. Adjust default material layers, flow exponents and flow coefficients to your liking. Make other adjustments or add things where necessary.
+5) Revise the auto-created EnergyPlus .idf file with the AFN. Adjust default material layers, flow exponents and flow coefficients to your liking. Make other adjustments or add extra EnergyPlus components where necessary.
 
 6) Revise the OpenFoam input, make adjustments and use the OpenFoam Module to automatically create a mesh and to generate a pressure distribution on the facade for various wind directions. (Waiting can be exciting, but you should go to sleep. These calculations can take a night.)
 
