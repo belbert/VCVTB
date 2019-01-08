@@ -1,4 +1,4 @@
-HOWTO
+Procedure
 -------------------------------------------------------------------------------------------
 Windows or Linux
 -------------------------------------------------------------------------------------------
@@ -9,17 +9,17 @@ Windows or Linux
 
 3) Create EMS Control scripts  > E+ inputfile zonder schedules
 
-4) GenerateEnergyPlusInput.py 	> Creates Mixed input files and a Command File
+4) GenerateEnergyPlusInput.py 	> Creates Mixed input files and a Command.txt File
 
 -------------------------------------------------------------------------------------------
 Linux
 -------------------------------------------------------------------------------------------
 
-5) Run.py *** 			> Runs all idf's in Commands.txt in parallel using GNU Parallel
+5) Run.py *** 			> Run all idf's in Commands.txt in parallel using GNU Parallel. You can specify the numbers of threads to use. Without further specification all threads are used. 
 
 6) DetectSevereErrors.py 	> Generates a list with crashed simulations (Mostly errors are due to convergence issues, adapt the relaxation factors of the crashed simulations)
 
-7) Create Graphs  
+7) Create Graphs using PostProcessing Modules
     
 -------------------------------------------------------------------------------------------
 ***
