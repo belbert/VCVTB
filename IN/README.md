@@ -1,6 +1,6 @@
 **_The procedure is awaiting updates_**
 
-The procedure below is a generalized representation of the necessary steps for a complete VCVTB simulation. Details per module will be added later.
+The procedure below is a generalized representation of the necessary steps for a complete VCVTB simulation. Specific details per module will be added dropwise.
 
 Generalised Procedure
 ---------
