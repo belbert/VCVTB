@@ -37,7 +37,7 @@ The standard Energylus Windspeed profile was replaced with an Atmospheric Boudar
 # Changes in .idd
 -----
 
-Maximum numer of iterations in AirflowNetwork:SimulationControl was increased to 300000
+Maximum number of iterations in AirflowNetwork:SimulationControl was increased to 300000
 ---------------------------------------------------------------------------------------
 
 AirflowNetwork:SimulationControl,
