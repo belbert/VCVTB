@@ -1,7 +1,5 @@
-The Book of VCVTB
+The Book of VCVTB - A manual to get started with the Ventilation Controls Virtual Test Bed
 -----------------
-
-A manual to get started with the Ventilation Controls Virtual Test Bed
 
 1) What is VCVTB?
 -----------------
