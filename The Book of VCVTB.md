@@ -160,7 +160,7 @@ Although we believe that the VCVTB methodology may be useful to the field of sim
 -There are indications in the literature that airflownetwork models are also less suitable for modelling single-sided ventilation. However, modified models are also available
 - ...
 
-- A different type of limitation is that I am a self-learned programmer. Therefore, it is likely that not all functions are implemented equally efficiently and that additional comments are needed. However, the current implementation does what it should do and I am satisfied with that for the time being.
+A different kind of limitation is that I am a self-learned programmer. Therefore, it is likely that not all functions are implemented equally efficiently and that additional comments are needed. My apologies for that. However, the current implementation gets the work done for which it was designed. For the time being I am satisfied with that.
 
 6.0 Licensing
 -----------------
