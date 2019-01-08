@@ -148,7 +148,15 @@ We are working on an addition to implement random forest based control algorithm
 
 *"All models are wrong, but some are useful" (G. Box)*
 
-Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. 
+Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. An airflow network approach is a simplified representation of reality in which predicted conditions in nodes can approximate the indoor environment but can never fully match it.
+
+- Unless the studied building has a very simple geometry and there are few obstacles in the environment, AFN calculations should always be used in combination with a detailed pressure distribution on the building envelope. VCVTB uses simulations in OpenFOAM, however for real cases they should be validated with monitoring data.
+-In addition to the above, it is necessary to use sufficiently fine weather data for stochastic environmental factors such as the wind.
+- Unless detailed users are simulated with some degree of stochasticity in their behaviour, predictions are only very general approximations and insufficiently reliable. VCVTB has a semi-probabilistic model to simulate this.
+- It would be advisable to model window opening behaviour on the basis of a stochastich algorithm or on measurement data. At the moment VCVTB does not have such a module, butin the research field there are models for EnergyPlus that could be implemented in due course.
+-...
+
+
 
 6.0 Licensing
 -----------------
