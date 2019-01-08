@@ -21,27 +21,27 @@ For an examined case study building (a detached single family house with 11 room
 VCVTB was tested with the software dependencies mentioned below.
 
 
-Python 			(2.7.15rc1) 
-pandas 			(0.22.0)
-pandas-datareader 	(0.6.0)
-plotly 			(3.1.0)
-matplotlib 		(2.2.2)
-numpy 			(1.15.1)
-python-dateutil 	(2.7.3)
-scipy 			(0.19.1)
-Lazarus-Pascal 		(1.8.2) including LazUtils
-SQLAlchemy 		(1.2.10)
-mysql 			(14.14 Distrib 5.7.23)
-mysql-connector 	(2.1.6)
-mysql-utilities 	(1.6.4)
-GNU Octave 		(4.4.1)
-GNU parallel 		(20161222)
-OpenFoam CFD Toolbox 	(3.0.1)
-EnergyPlus 		(custom version based on 8.8.0)
-Paraview 		(5.4.1)
-g++			(7.3.0)
-cmake			(3.0)
-traces			(0.4.2)
+- Python 			(2.7.15rc1) 
+- pandas 			(0.22.0)
+- pandas-datareader 	(0.6.0)
+- plotly 			(3.1.0)
+- matplotlib 		(2.2.2)
+- numpy 			(1.15.1)
+- python-dateutil 	(2.7.3)
+- scipy 			(0.19.1)
+- Lazarus-Pascal 		(1.8.2) including LazUtils
+- SQLAlchemy 		(1.2.10)
+- mysql 			(14.14 Distrib 5.7.23)
+- mysql-connector 	(2.1.6)
+- mysql-utilities 	(1.6.4)
+- GNU Octave 		(4.4.1)
+- GNU parallel 		(20161222)
+- OpenFoam CFD Toolbox 	(3.0.1)
+- EnergyPlus 		(custom version based on 8.8.0)
+- Paraview 		(5.4.1)
+- g++			(7.3.0)
+- cmake			(3.0)
+- traces			(0.4.2)
 
 4) Set-up
 ---------
