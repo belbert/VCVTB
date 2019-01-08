@@ -1,2 +1,2 @@
 
-This is the location to create a library of .epw weather files for your projects
+This is the location to create a library of .epw weather files for your VCVTB projects
