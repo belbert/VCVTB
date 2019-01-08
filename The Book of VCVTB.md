@@ -195,4 +195,5 @@ Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{1
 7) License Information
 -----------------
 
-VCVTB is pending for a NonCommercial creative Commons License 
+VCVTB is pending for a NonCommercial creative Commons License.
+Feel free to use and adapt the code, but please make a reference. It is greatly appreciated.
