@@ -75,9 +75,9 @@ A procedure to automate this is yet to be implemented.
 
 The behaviour model is a model that generates EnergyPlus compatible user behaviour schedules for multizone airflow network based IAQ simulations. It additionally generates a list of household appliances and their performance labels. It is based on the semi-probabilistic behaviour model of Aerts [1]. It includes activity related sensible heat rates and moisture generation rates based on Pallin [7] and it includes metabolic sensible and latent heat gain rates and carbon dioxide generation rates for building occupants based on Persily [2]. The activity of users is derived semi-probabilistically based on time-use surveys. Depending on the activity, a location, used devices and a metabolism are simulated for every occupant.
 
-The output of the behaviour module is a number of .idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file, i.e. a .csv file containing the appliances of a specific family including their energy rating.
+The output of the behaviour module is a number of .idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file and a .csv file containing the appliances of a specific family, including their energy rating.
 
-The CombineSchedules.py script combines the seperate idfs for presence, equipment, activity, heat, moisture, carbon dioxide
+The CombineSchedules.py script combines the seperate idfs for presence, equipment, activity, heat, moisture, carbon dioxide to a single .idf input.
 
 The ResampleHeatProduction.py script can be used to resample the 10 minute people data from the people model to 1 minute output data for the postprocessing modules. This approach is faster than using the Octave model to generate output data at minute level. The input of this module is a HeatProduction.csv file for a family. The result is a HeatProduction-resampled.csv file.
 
@@ -108,33 +108,38 @@ INPUT
 
 
 
-	CombinedSchedules folder: Should contain all households to add to the ventilationsystems
-	CombinedIDF folder: Temporary folder that is automatically filled and cleaned
-	TestEnergyPlus folder:
-        SELECTVENTILATIONSYSTEMS folder: BackUp folder with all ventilation systems
-	VENTILATIONSYSTEMS folder: Folder with ventilation systems that will be combined in the next run
+CombinedSchedules folder: Should contain all households to add to the ventilationsystems
+CombinedIDF folder: Temporary folder that is automatically filled and cleaned
+TestEnergyPlus folder:
+SELECTVENTILATIONSYSTEMS folder: BackUp folder with all ventilation systems
+VENTILATIONSYSTEMS folder: Folder with ventilation systems that will be combined in the next run
 	
-	GenerateEnergyPlusInput.py: This script is used to make combine idfs containing household information with idfs containing ventilation system information. The CombinedIDF folder is uses to store intermediate information. The output is stored in the In folder
+GenerateEnergyPlusInput.py: This script is used to make combine idfs containing household information with idfs containing ventilation system information. The CombinedIDF folder is uses to store intermediate information. The output is stored in the In folder
 	
-        CreateRuns.py: This script is used after the GenerateEnergyPlusInput script to generate corresponding python files and a Runfile.txt. The python files contain serial commands to run EnergyPlus simulations and store them in a MySQL database. The Runfile is an input file for GNU parallel that allows parallel execution of multiple simulations using the command ParallelRun.py ("parallel < Runfile.txt") script. Gnu parallels takes care of using all threads of the processor. Once one thread is ready, the next line in the Runfile.txt is executed untill all simulations are ready.
+CreateRuns.py: This script is used after the GenerateEnergyPlusInput script to generate corresponding python files and a Runfile.txt. The python files contain serial commands to run EnergyPlus simulations and store them in a MySQL database. The Runfile is an input file for GNU parallel that allows parallel execution of multiple simulations using the command ParallelRun.py ("parallel < Runfile.txt") script. Gnu parallels takes care of using all threads of the processor. Once one thread is ready, the next line in the Runfile.txt is executed untill all simulations are ready.
 
 OUTPUT
         The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
 
-        Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
+Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
 
 4.6 PostProcessing Modules and Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
-	EPLUS_2_SQL.py
-	EPLUS_2_SQL_MODES.py
-	EPLUS_2_SQL_MODES_AFTER.py
-        LAZARUS Airflow script
+- 
+-
+-
 
-	BENCHMARK folder
-        BOXPLOT folder
-	ROBUSTNESS folder
+
+EPLUS_2_SQL.py
+EPLUS_2_SQL_MODES.py
+EPLUS_2_SQL_MODES_AFTER.py
+LAZARUS Airflow script
+
+BENCHMARK folder
+BOXPLOT folder
+ROBUSTNESS folder
 	
 4.7 Forests Module
 ---------
