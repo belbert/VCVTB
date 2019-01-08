@@ -136,7 +136,7 @@ OUTPUT
         BOXPLOT folder
 	ROBUSTNESS folder
 	
-4.7 Forests
+4.7 Forests Module
 ---------
 **_This section is awaiting updates_**
 
