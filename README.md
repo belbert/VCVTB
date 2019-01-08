@@ -11,6 +11,8 @@ A few points for attention
 - Due to the size of the test bed the current release is incomplete, comments, paths and files will be added, updated and translated in English on a dropwise basis.
 - VCVTB has a folder-based OpenFoam-like setup. For privacy reasons paths and passwords are anonymised. They will be adapted to generic paths in the future.
 
+--------------------------
+
 An Original Research Paper containing an overview of VCVTB and the reason why it was created was recently submitted to the international journal "Building and Environment. At the moment it is pending for approval. Upon acceptance, a reference will be placed here. It is titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies."
 
 A doctoral thesis concerning VCVTB will also be made available after the public PhD defence. This will hopefully happen end March/ early April 2019.
