@@ -12,7 +12,7 @@ Preparations
 
 2) Use the VCVTB PreProcessing tools to generate geometrical AFN input for EnergyPlus and to generate geometrical input for OpenFoam. 
 
-3) Create people in Octave using the behaviour module. Use GNU Parallel to batch create family libraries in parallel. Depending on the amount of families that you need this can take a while. It's interesting to create a library of families for future use. While you wait you can review the paper that was still on your desk.
+3) Create people in Octave using the behaviour module. Use GNU Parallel to batch create family libraries in parallel. Depending on the amount of families that you need this can take a while. (It's interesting to create a library of families for future use. While you wait you can review the paper that was still on your desk.
 
 4) Use CombineSchedules.py to make a single file that includes peopleschedules, activityschedules, CO2schedules... from the output of the behaviour module
 
