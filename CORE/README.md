@@ -4,7 +4,7 @@
 - This folder includes a separate folder containing the changed source files.
 
 # Changes in AirflowNetworkBalaceManager.cc
-=======================================================================================
+-----
 
 1) ManageAirflowNetworkBalance() was changed to have updated input on AirflowNetwork:Distribution:Component:Duct and AirflowNetwork:MultiZone:Surface:Crack components in every calculation step.
 
@@ -21,7 +21,7 @@ if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...}
 				
 
 # Changes in DataEnvironment.cc 
-=======================================================================================
+-----
 
 1) updated function WindSpeedAt( Real64 const Z ) in DataEnvironment.cc:
 The standard Energylus Windspeed profile was replaced with an Atmospheric Boudary Layer (ABL) Profile
@@ -35,7 +35,7 @@ Ustar=(K*Uref)/std::log((zref+z0)/z0);
 LocalWindSpeed = (Ustar/K)*std::log((Z-zground+z0)/z0);
 
 # Changes in .idd
-=======================================================================================
+-----
 
 Maximum numer of iterations in AirflowNetwork:SimulationControl was increased to 300000
 ---------------------------------------------------------------------------------------
