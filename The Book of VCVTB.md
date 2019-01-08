@@ -152,7 +152,7 @@ OUTPUT
 Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations.
 ...
 
-6.0 License Information
+6.0 Licensing
 -----------------
 
 VCVTB is pending for a NonCommercial creative Commons License.
