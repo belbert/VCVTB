@@ -20,7 +20,7 @@ An Original Research Paper containing an overview of VCVTB and the reason why it
 
 A doctoral thesis concerning VCVTB will also be made available after the public PhD defence. This will hopefully happen end March/ early April 2019.
 
-Final Remarks
+Remarks
 --------------------------
 
 Until now, VCVTB v.1.0.0 is made available in this repository "As it is". In the meanwhile feel free to take a look around and to ask questions. 
