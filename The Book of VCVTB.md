@@ -61,15 +61,15 @@ A procedure to automate this is yet to be implemented.
 
 - The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow. However, since it refers to the forementioned routines dependencies must be changed.
 
-4.2 Using the PreProcessing Modules: (Pascal, Python)
+4.2 PreProcessing Modules: (Pascal, Python)
 ---------
 **_This section is awaiting updates_**
 
-4.3 Using the CFD Module: (OpenFOAM)
+4.3 CFD Module: (OpenFOAM)
 ---------
 **_This section is awaiting updates_**
 
-4.4 Using the Behaviour Module: (GNU Octave)
+4.4 Behaviour Module: (GNU Octave)
 ---------
 **_This section is awaiting updates_**
 
@@ -86,7 +86,7 @@ The people model can be used to generate a library of households with variable u
 MultiPEOPLE_2_SQL
 ParallelPeople
 
-4.5 Using the Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
+4.5 Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
 **_This section is awaiting updates_**
 
@@ -132,7 +132,7 @@ FORESTS
 
 We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
 
-4.6 Using the PostProcessing Modules and Interpreting the Results: (MySQL, Python, Pascal)
+4.6 PostProcessing Modules and Interpretation of Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
