@@ -62,7 +62,7 @@ A procedure to automate this is yet to be implemented.
 
 4.2 Using the Behaviour Model: (GNU Octave)
 ---------
-% This section is awaiting updates
+**_This section is awaiting updates_**
 
 Input
 
