@@ -5,7 +5,7 @@ Info on how to run the Behaviour Module (in Model_TYPE.m) from Aerts
 - MyHouseholdCharacteristics = [3 1; 3 2; 1 5; 1 5;];  %household characteristics
 - MyNumberOfYoungChildren = 0; %Children excluded from occupancy/activity/moisture simulations
 - Description = '3131-2';     %This description will be used to create sub-folders with results, and in the names of figures and text-documents
-- **MemberCharacteristics = [1 32;2 32;1 5;1 7]; % gender (1=male,2=female) & age. Age can be randomly sampled from an agebin to have more variation **
+- **_MemberCharacteristics = [1 32;2 32;1 5;1 7]; % gender (1=male,2=female) & age. Age can be randomly sampled from an agebin to have more variation_**
 
 
 Info on how to define Household Characteristics in Model_TYPE.m 
