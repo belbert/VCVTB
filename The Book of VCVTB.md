@@ -48,7 +48,7 @@ VCVTB was tested with the software dependencies mentioned below.
 4) Workflow
 ---------
 
-4.0) Points of attention
+4.0 Points of attention
 ---------
 
 - For now all files contain generic paths. They should be updated to actual file locations before running VCVTB.
@@ -60,7 +60,7 @@ A procedure to automate this is yet to be implemented.
 
 - The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow. However, since it refers to the forementioned routines dependencies must be changed.
 
-4.1) Using the Behaviour Model:
+4.1 Using the Behaviour Model:
 ---------
 
 Input
@@ -83,7 +83,7 @@ MultiPEOPLE_2_SQL
 ParallelPeople
 
 
-4.2) Using the Airflow Network Model:
+4.2 Using the Airflow Network Model:
 ---------
 
 Generating Input - Lazarus.
@@ -126,7 +126,7 @@ FORESTS
 
 We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
 
-4.3) Using the CFD Model:
+4.3 Using the CFD Model:
 ---------
 
 INPUT
