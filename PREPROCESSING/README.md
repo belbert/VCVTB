@@ -1,4 +1,4 @@
 
 # README
 
-Awaiting updates
+Empty at the moment, awaiting updates.
