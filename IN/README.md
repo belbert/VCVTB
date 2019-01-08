@@ -1,9 +1,11 @@
-**_This section is awaiting updates_**
+**_The procedure is awaiting updates_**
 
 Procedure
+---------
+
+Preparations on Windows or Linux
 -------------------------------------------------------------------------------------------
-Windows or Linux
--------------------------------------------------------------------------------------------
+
 
 1) Create people in Octave      > Use GNU Parallel to batch create families in parallel
 
