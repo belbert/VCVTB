@@ -83,7 +83,7 @@ The ResampleHeatProduction.py script can be used to resample the 10 minute peopl
 
 The people model can be used to generate a library of households with variable user characteristics and various appliances with fixed or varying energy performance ratings. 
 
-4.5 Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
+4.5 Airflow Network Based EnergyPlus Calculation Module: (Custom EnergyPlus Build)
 ---------
 **_This section is under revision. A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder._**
 
