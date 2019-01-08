@@ -1,6 +1,6 @@
 The Book of VCVTB - An Overview of Functionalities and Dependencies
 -----------------
-(VCVTB = Ventilation Controls Virtual Test Bed)
+VCVTB = Ventilation Controls Virtual Test Bed
 
 1.0 What is VCVTB?
 -----------------
