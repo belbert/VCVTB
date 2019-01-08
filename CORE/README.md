@@ -54,39 +54,39 @@ AirflowNetwork:MultiZone:Surface:Crack was updated to allow scheduled input
 ---------------------------------------------------------------------------------------
 
 AirflowNetwork:MultiZone:Surface:Crack,
-      \min-fields 3
-      \memo This object specifies the properties of airflow through a crack.
- A1 , \field Name
-      \required-field
-      \type alpha
-      \reference SurfaceAirflowLeakageNames
-      \note Enter a unique name for this object.
- N1 , \field Air Mass Flow Coefficient at Reference Conditions
-      \type real
-      \required-field
-      \units kg/s
-      \minimum> 0
-      \note Enter the air mass flow coefficient at the conditions defined
-      \note in the Reference Crack Conditions object.
-      \note Defined at 1 Pa pressure difference across this crack.
- N2 , \field Air Mass Flow Exponent
-      \type real
-      \units dimensionless
-      \minimum 0.5
-      \maximum 1.0
-      \default 0.65
-      \note Enter the air mass flow exponent for the surface crack.
- A2 ; \field Reference Crack Conditions
-      \type object-list
-      \object-list ReferenceCrackConditions
-      \note Select a AirflowNetwork:MultiZone:ReferenceCrackConditions name associated with
-      \note the air mass flow coefficient entered above.
+-       \min-fields 3
+-       \memo This object specifies the properties of airflow through a crack.
+-  A1 , \field Name
+-       \required-field
+-       \type alpha
+-       \reference SurfaceAirflowLeakageNames
+-       \note Enter a unique name for this object.
+-  N1 , \field Air Mass Flow Coefficient at Reference Conditions
+-       \type real
+-       \required-field
+-       \units kg/s
+-       \minimum> 0
+-       \note Enter the air mass flow coefficient at the conditions defined
+-       \note in the Reference Crack Conditions object.
+-       \note Defined at 1 Pa pressure difference across this crack.
+-  N2 , \field Air Mass Flow Exponent
+-       \type real
+-       \units dimensionless
+-       \minimum 0.5
+-       \maximum 1.0
+-       \default 0.65
+-       \note Enter the air mass flow exponent for the surface crack.
+-  A2 ; \field Reference Crack Conditions
+-       \type object-list
+-       \object-list ReferenceCrackConditions
+ -      \note Select a AirflowNetwork:MultiZone:ReferenceCrackConditions name associated with
+ -      \note the air mass flow coefficient entered above.
 
 AirflowNetwork:Distribution:Component:Duct was updated to allow scheduled input
 ---------------------------------------------------------------------------------------
 
 AirflowNetwork:Distribution:Component:Duct,
-      \min-fields 8
+      \min-fields 8\\
       \memo This object defines the relationship between pressure and air flow through the duct.
  A1 , \field Name
       \required-field
