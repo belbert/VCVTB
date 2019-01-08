@@ -5,7 +5,7 @@ The procedure below is a generalized representation of the necessary steps for a
 Generalised Procedure
 ---------
 
-Preparations 
+Preparation and PreProcessing
 ------------
 
 1) Create a CAD drawing using the appropriate* drawing conventions. Make sure to include AFN objects to automatically generate an airflow network in step 2.
