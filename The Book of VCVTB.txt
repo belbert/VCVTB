@@ -54,7 +54,7 @@ A procedure to automate this is yet to be implemented.
 
 - A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/2OUT/mysql.
 
-- The behaviour model of Aerts should be aquired from the owner. Updated procedures can be found in the VCVTB/1IN/PEOPLE LIBRARY
+- The behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/1IN/PEOPLE LIBRARY
 
 - The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format and must for now be rebuilt by the user or aquired from the engineering office in question (http://www.daidalospeutz.be). The procedures to generate 3D airflows is included and can be found in VCVTB/4POSTPROCESSING/3DAirflow. 
 
