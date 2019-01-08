@@ -23,10 +23,10 @@ A doctoral thesis concerning VCVTB will also be made available after the public 
 Remarks
 --------------------------
 
-- VCVTB v.1.0.0 is made available in this repository "As it is". 
-- I will try to post weekly updates until the entire platform is online, but at the moment my focus is on finalizing the text of my PhD research.
+- VCVTB v.1.0.0 is dropwise made available in this repository "As it is". 
+- I will try to post weekly updates until the entire platform is online, but at the moment my focus is on finalizing the text of my PhD research. Priority will be given to complementing "The Book of VCVTB" in the main folder, because it doesn't seem very useful to throw a lot of scripts online without the required user guidelines.
 
-Feel free to take a look around, ask questions and make suggestions. 
+For the time being, feel free to take a look around, ask questions and make suggestions. 
 
 Bert Belmans
 
