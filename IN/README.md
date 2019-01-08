@@ -44,7 +44,7 @@ Additional postprocessing tools apart from VCVTB Report Sheets:
 - 3D DXF Airflow Drawings > extracts one timestep from a MySQL AFN database and creates a 3D airflow model of the situation.
 - VCVTB Comparative Tables > generates (a) table(s) to compare ventilation strategies.
 - Boxplot > Graphical way to compare the robustness of strategies
-- (Performance Labels) **_under development_**
+- Comparative Performance Labels **_under development_**
 
 
 
