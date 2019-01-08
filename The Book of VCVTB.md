@@ -48,14 +48,14 @@ traces			(0.4.2)
 
 4.0 Basic Setup
 
-- All files contain generic paths. They should be updated to actual file locations before running VCVTB.
+- For now all files contain generic paths. They should be updated to actual file locations before running VCVTB.
 A procedure to automate this is yet to be implemented.
 
 - A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/OUT/mysql.
 
 - The original behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/IN/PEOPLE LIBRARY
 
-- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow.Dependencies must however, be changed.
+- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow. However, since it refers to the forementioned routines dependencies must be changed.
 
 4.1 Using the Behaviour Model:
 
