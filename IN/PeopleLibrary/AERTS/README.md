@@ -1,3 +1,13 @@
+EXTRA INFO ON HOW TO Run the Behaviour Module (in Model_TYPE.mà
+------------------------------------------------------
+
+- NumberOfRuns = 10; %number of desired simulated households
+- MyHouseholdCharacteristics = [3 1; 3 2; 1 5; 1 5;];  %household characteristics
+- MyNumberOfYoungChildren = 0; %Children excluded from occupancy/activity/moisture simulations
+- Description = '3131-2';     %This description will be used to create sub-folders with results, and in the names of figures and text-documents
+- MemberCharacteristics = [1 32;2 32;1 5;1 7]; % gender (1=male,2=female) & age. Age can be sampled from an agebin or directly entered
+
+
 EXTRA INFO ON HOW TO DEFINE HOUSEHOLD CHARACTERISTICS in Model_TYPE.m 
 ------------------------------------------------------
 
