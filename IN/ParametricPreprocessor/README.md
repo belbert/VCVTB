@@ -1,1 +1,3 @@
-Run ParametricPreprocessor.py to make all possible parameter combinations for the file in the /In folder. Combinations are saved in the /Out folder. Define aliases inside the python script and use them in the IDF file in the /In Folder
+- Run ParametricPreprocessor.py to make all possible parameter combinations for the file in the /In folder. 
+- Combinations are saved in the /Out folder. 
+- Define aliases inside the python script and use them in the IDF file in the /In Folder
