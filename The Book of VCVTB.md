@@ -86,9 +86,10 @@ The people model can be used to generate a library of households with variable u
 MultiPEOPLE_2_SQL
 ParallelPeople
 
-4.5 Using the Airflow Network based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
+4.5 Using the Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
 **_This section is awaiting updates_**
+- A custom EnergyPlus version can be found in the VCVTB/CORE folder.
 
 Generating Input - Lazarus.
 
