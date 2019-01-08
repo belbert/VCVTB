@@ -69,32 +69,24 @@ A procedure to automate this is yet to be implemented.
 ---------
 **_This section is awaiting updates_**
 
-INPUT
-
-OUTPUT
-
 4.4 Using the Behaviour Module: (GNU Octave)
 ---------
 **_This section is awaiting updates_**
 
-Input
+The behaviour model is a model that generates EnergyPlus compatible user behaviour schedules for multizone airflow network based IAQ simulations. It additionally generates a list of household appliances and their performance labels. It is based on the semi-probabilistic behaviour model of Aerts [1]. It includes activity related sensible heat rates and moisture generation rates based on Pallin [7] and it includes metabolic sensible and latent heat gain rates and carbon dioxide generation rates for building occupants based on Persily [2]. The activity of users is derived semi-probabilistically based on time-use surveys. Depending on the activity, a location, used devices and a metabolism are simulated for every occupant.
 
-The behaviour model is a model to generate energyplus schedules and additional information to allow a better interpretation.
-
-Output 
-
-The output of the people module is a number of .idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file a csv file containing the appliances of the family including their energy rating.
+The output of the behaviour module is a number of .idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file, i.e. a .csv file containing the appliances of a specific family including their energy rating.
 
 The CombineSchedules.py script combines the seperate idfs for presence, equipment, activity, heat, moisture, carbon dioxide
 
-The ResampleHeatProduction.py script can be used to resample the 10 minute people data from the people model to 1 minute output data for the postprocessing modules. This approach is faster than using the Octave model to generate output data at minute level. The input is te HeatProduction.csv file for a family. The result is a HeatProduction-resampled.csv file
+The ResampleHeatProduction.py script can be used to resample the 10 minute people data from the people model to 1 minute output data for the postprocessing modules. This approach is faster than using the Octave model to generate output data at minute level. The input of this module is a HeatProduction.csv file for a family. The result is a HeatProduction-resampled.csv file.
 
-The people folder contains a selection of 7 precreated household types times 20 households per type that were generated using the people model to allow fast simulation. The people model can be used to generate extra households in case this is necessary.
+The people model can be used to generate a library of households with variable user characteristics and various appliances with fixed or varying energy performance ratings. 
 
 MultiPEOPLE_2_SQL
 ParallelPeople
 
-4.5 Using the Airflow Network Module: (Custom EnergyPlus Build)
+4.5 Using the Airflow Network based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
 **_This section is awaiting updates_**
 
