@@ -191,8 +191,13 @@ Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{1
 
 [19] U. D. of Energy, EnergyPlus v.8.8 Engineering Reference, U.S.Department of Energy, 2017.
 
-6) Epilogue
+6) Limitations
 -----------------
+
+All models are wrong but some are useful (George Box)
+
+Although we believe that VCVTB may be useful to some it has its limitations.
+...
 
 7) License Information
 -----------------
