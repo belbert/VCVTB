@@ -1,5 +1,6 @@
-EXTRA INFO ON HOW TO DEFINE HOUSEHOLD CHARACTERISTICS 
+EXTRA INFO ON HOW TO DEFINE HOUSEHOLD CHARACTERISTICS in Model_TYPE.m 
 ------------------------------------------------------
+
 - row = member; column1 = Agebin; column2 = employment type 
 - agebins: 1 = <18; 2=[18-24], 3=[25-39], 4=[40-54], 5=[55-64], 6=[65-75], 7= >75
 - employment: 1=fulltime, 2=parttime, 3=inactive, 4=retired, 5=school
@@ -16,6 +17,7 @@ IMPORTANT: children should only be included once! Either in the Household Charac
 OR the Number of Young Children
 
 EXAMPLES:
+
 --------
 - [6 4]            = one retired adult between 65y and 75y
 - [3 1; 3 1]       = two adults between 25y and 39y, both working full-time
