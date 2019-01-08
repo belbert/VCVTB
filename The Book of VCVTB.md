@@ -144,7 +144,7 @@ We are working on an addition to implement random forest based control algorithm
 
 5.0 Limitations
 -----------------
-**_This section is awaiting updates_**
+**_This section is awaiting updates, references should be included_**
 
 *"All models are wrong, but some are useful" (G. Box)*
 
@@ -156,6 +156,8 @@ Although we believe that the VCVTB methodology may be useful to the field of sim
 - Unless detailed users are simulated with some degree of stochasticity in their behaviour, predictions are only very general approximations and insufficiently reliable. VCVTB has a semi-probabilistic model to take this into account, however, it needs to be explored in more detail and it must be supplemented with other sources of pollution.
 - It would be advisable to model window opening behaviour on the basis of a stochastich algorithm or on measurement data. At the moment VCVTB does not have such a module. In the research field there are stochastic models that are suitable for EnergyPlus that could be implemented in due course.
 - Although VCVTB's operation was tested using long-term monitoring data from a case study, further validation is needed to improve and consolidate the software. Feel free to participate.
+- An AFN approach is not suitable for modelling large open spaces or atria. For such spaces the mixed-mode approach is not applicable. The modeller must decide for himself whether it is acceptable to split a large space into sub-compartments or to switch to a (combined AFN-) CFD approach.
+-There are indications in the literature that airflownetwork models are also less suitable for modelling single-sided ventilation. However, modified models are also available
 - ...
 
 
