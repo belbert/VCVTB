@@ -45,7 +45,7 @@ VCVTB was tested with the software dependencies mentioned below.
 - cmake			(3.0)
 - traces			(0.4.2)
 
-4) Workflow
+4.) Workflow
 ---------
 
 4.0 Points of attention
