@@ -64,8 +64,15 @@ A procedure to automate this is yet to be implemented.
 ---------
 **_This section is awaiting updates_**
 
+4.3 Using the CFD Module: (OpenFOAM)
+---------
+**_This section is awaiting updates_**
 
-4.2 Using the Behaviour Model: (GNU Octave)
+INPUT
+
+OUTPUT
+
+4.4 Using the Behaviour Module: (GNU Octave)
 ---------
 **_This section is awaiting updates_**
 
@@ -86,8 +93,7 @@ The people folder contains a selection of 7 precreated household types times 20 
 MultiPEOPLE_2_SQL
 ParallelPeople
 
-
-4.3 Using the Airflow Network Model: (Custom EnergyPlus Version)
+4.5 Using the Airflow Network Module: (Custom EnergyPlus Build)
 ---------
 **_This section is awaiting updates_**
 
@@ -131,15 +137,7 @@ FORESTS
 
 We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
 
-4.4 Using the CFD Model: (OpenFOAM)
----------
-**_This section is awaiting updates_**
-
-INPUT
-
-OUTPUT
-
-4.5 Using the PostProcessing Modules and Interpreting the Results: (MySQL, Python, Pascal)
+4.6 Using the PostProcessing Modules and Interpreting the Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
