@@ -48,9 +48,9 @@ Note:
 
 For example:
 
-parallel < xxx.txt                 #Runs a simulation on all available threads
-parallel --eta < xxx.txt 		#Runs a simulation with an estimated runtime (not very precise)
-parallel --jobs 2 < xxx.txt	#Runs a simulation with a maximum number of parallel jobs e.g. to avoid thermal throttling/shutdown
+- parallel < xxx.txt                 #Runs a simulation on all available threads
+- parallel --eta < xxx.txt 		#Runs a simulation with an estimated runtime (not very precise)
+- parallel --jobs 2 < xxx.txt	#Runs a simulation with a maximum number of parallel jobs e.g. to avoid thermal throttling/shutdown
 
-> If you don't define a number of jobs, the maximal amount of available threads will be used (example 1)
-> If the amount of commands in command.txt is larger than the available number of threads, they are put in a waiting list in simulation order. If one thread has finished its current job, the next command in the waiting list will start on this thread. Therefore all resources are always used in an most efficient way (never idle).
+- If you don't define a number of jobs, the maximal amount of available threads will be used (example 1)
+- If the amount of commands in command.txt is larger than the available number of threads, they are put in a waiting list in simulation order. If one thread has finished its current job, the next command in the waiting list will start on this thread. Therefore all resources are always used in an most efficient way (never idle).
