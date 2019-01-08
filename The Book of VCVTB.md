@@ -127,9 +127,9 @@ Power.py This script does a pressure loss calculation for the ductwork and calcu
 ---------
 **_This section is awaiting updates_**
 
-- /POSTPROCESSING/REPORTSHEET: VCVTB Report Sheets
-- /POSTPROCESSING/3DAIRFLOW: 3D DXF Airflow Drawings
-- /POSTPROCESSING/COMPARATIVETABLE: VCVTB Comparative Tables
+- VCVTB/POSTPROCESSING/REPORTSHEET: VCVTB Report Sheets
+- VCVTB/POSTPROCESSING/3DAIRFLOW: 3D DXF Airflow Drawings
+- VCVTB/POSTPROCESSING/COMPARATIVETABLE: VCVTB Comparative Tables
 	
 4.7 Forests Module
 ---------
