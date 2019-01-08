@@ -1,5 +1,7 @@
 **_The procedure is awaiting updates_**
 
+The procedure below is a generalized representation of the necessary steps for a complete VCVTB simulation, details will be added later.
+
 Generalised Procedure
 ---------
 
