@@ -150,10 +150,10 @@ We are working on an addition to implement random forest based control algorithm
 
 Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations. An airflow network approach is a simplified representation of reality in which predicted conditions in nodes can approximate the indoor environment but can never fully match it.
 
-- Unless the studied building has a very simple geometry and there are few obstacles in the environment, AFN calculations should always be used in combination with a detailed pressure distribution on the building envelope. VCVTB uses simulations in OpenFOAM, however for real cases they should be validated with monitoring data.
-- In addition to the above, it is necessary to use sufficiently fine weather data for stochastic environmental factors such as the wind.
-- Unless detailed users are simulated with some degree of stochasticity in their behaviour, predictions are only very general approximations and insufficiently reliable. VCVTB has a semi-probabilistic model to simulate this.
-- It would be advisable to model window opening behaviour on the basis of a stochastich algorithm or on measurement data. At the moment VCVTB does not have such a module, butin the research field there are models for EnergyPlus that could be implemented in due course.
+- Unless the studied building has a very simple geometry and there are few obstacles in the environment, AFN calculations should always be used in combination with a detailed pressure distribution on the building envelope. VCVTB uses simulations in OpenFOAM for this purpose. To use VCVTB in practice CFD generated wind pressure coefficients should be validated with monitoring data.
+- In addition to the above, to make accurate predictions it is necessary to use sufficiently fine weather data for stochastic environmental factors such as the wind.
+- Unless detailed users are simulated with some degree of stochasticity in their behaviour, predictions are only very general approximations and insufficiently reliable. VCVTB has a semi-probabilistic model to take this into account, however, it needs to be explored in more detail and it must be supplemented with other sources of pollution.
+- It would be advisable to model window opening behaviour on the basis of a stochastich algorithm or on measurement data. At the moment VCVTB does not have such a module. In the research field there are stochastic models that are suitable for EnergyPlus that could be implemented in due course.
 - Although VCVTB's operation was tested using long-term monitoring data from a case study, further validation is needed to improve and consolidate the software. Feel free to participate.
 - ...
 
