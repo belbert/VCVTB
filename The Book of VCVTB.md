@@ -197,7 +197,7 @@ Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{1
 
 VCVTB is pending for a NonCommercial creative Commons License.
 Feel free to use and adapt the code, but please make a reference. It is greatly appreciated.
-For now you can refer to this github page, once a paper is accepted, please use this as a reference.
+For now you can refer to this github page, once a paper is accepted, please refer to the paper.
 
 Don't forget to include the below EnergyPlus reference if you are planning to redistribute adapted versions.
 
