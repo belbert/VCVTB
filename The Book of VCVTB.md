@@ -1,17 +1,17 @@
 The Book of VCVTB - a First Overview of Functionalities and Dependencies
 -----------------
 
-1) What is VCVTB?
+1.0 What is VCVTB?
 -----------------
 
 VCVTB is an opensource EnergyPlus based virtual test bed. It is the translation of a holistic approach for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. 
 It originated from the doctoral research of ir. arch. Bert Belmans under the supervision of prof. dr. ir. arch Filip Descamps.
 
-2) Why was VCVTB created?
+2.0 Why was VCVTB created?
 -----------------
 When studying the overall performance of new and existing buildings, modellers need tools to simultaneously consider building energy use as well as user related aspects such as thermal comfort and indoor air quality. VCVTB focusses on a part of this, namely the balance between (auxiliary) energy use (of fans), indoor air quality and user comfort. It was created to study the potential of complex mixed-mode ventilation systems to decrease auxiliary energy use by reappraising the value of natural ventilation and focusing on adaptive comfort. Although there are state of the art programs that can be combined to get a similar job done using co-simulation, they usually don't have a straightforward workflow and researchers must come up with their own custom solutions. This puts a huge brake on further research. In the research field, there was a demand for dedicated simulation tools to stimulate application-oriented research. VCVTB attempts to answer this demand by providing a dedicated holistic approach which saves modellers the time consuming task of combining software programs for BEM and AFN modelling using co-simulation. Moreover, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of synthetic users. In addition VCVTB provides intuitive output. It generates report sheets, comparative tables and 3D airflow drawings. Finally, because VCVTB is an open source tool, researchers can make their own adjustments. By opening up the platform we hope to stimulate further research into mixed-mode ventilation strategies.
 
-3) Hardware Specifications and Software Dependencies
+3.0 Hardware Specifications and Software Dependencies
 ----------------------------------------------------
 
 VCVTB was tested on a workstation with an Intel®Core™ i7-8700K CPU @ 3.70GHz × 12 processor and 32 GB RAM running Ubuntu 18.04.1 LTS 64 bit. 
@@ -45,10 +45,10 @@ VCVTB was tested with the software dependencies mentioned below.
 - cmake			(3.0)
 - traces			(0.4.2)
 
-4.) Workflow
+4.0 Workflow
 ---------
 
-4.0 Points of attention
+4.1 Points of attention
 ---------
 
 - For now all files contain generic paths. They should be updated to actual file locations before running VCVTB.
@@ -60,7 +60,7 @@ A procedure to automate this is yet to be implemented.
 
 - The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow. However, since it refers to the forementioned routines dependencies must be changed.
 
-4.1 Using the Behaviour Model:
+4.2 Using the Behaviour Model:
 ---------
 
 Input
@@ -83,7 +83,7 @@ MultiPEOPLE_2_SQL
 ParallelPeople
 
 
-4.2 Using the Airflow Network Model:
+4.3 Using the Airflow Network Model:
 ---------
 
 Generating Input - Lazarus.
@@ -126,15 +126,15 @@ FORESTS
 
 We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
 
-4.3 Using the CFD Model:
+4.4 Using the CFD Model:
 ---------
 
 INPUT
 
 OUTPUT
 
-4.4) Using the Posprocessing Modules and interpreting the results:
-
+4.5 Using the Posprocessing Modules and interpreting the results:
+---------
 	EPLUS_2_SQL.py
 	EPLUS_2_SQL_MODES.py
 	EPLUS_2_SQL_MODES_AFTER.py
@@ -144,7 +144,7 @@ OUTPUT
         BOXPLOT folder
 	ROBUSTNESS folder
 
-5) Limitations
+5.0 Limitations
 -----------------
 
 *"All models are wrong, but some are useful" (G. Box)*
@@ -152,7 +152,7 @@ OUTPUT
 Although we believe that the VCVTB methodology may be useful to the field of simulation-based ventilation research, it does have its limitations.
 ...
 
-6) License Information
+6.0 License Information
 -----------------
 
 VCVTB is pending for a NonCommercial creative Commons License.
@@ -179,7 +179,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-7) Scientific References
+7.0 Scientific References
 -----------------
 
 VCVTB Builds on reference data and approaches fom the sources below:
