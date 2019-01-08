@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/data/generic/EnergyPlus/COMPILED/SOURCE170718/src/EnergyPlus/CommandLineInterface.hh
+string
+-
+EnergyPlusAPI.hh
+-
+
+/home/data/generic/EnergyPlus/COMPILED/SOURCE170718/src/EnergyPlus/main.cc
+EnergyPlusPgm.hh
+-
+CommandLineInterface.hh
+-
+
+/home/data/generic/EnergyPlus/COMPILED/SOURCE170718/src/EnergyPlus/public/EnergyPlusAPI.hh
+
+/home/data/generic/EnergyPlus/COMPILED/SOURCE170718/src/EnergyPlus/public/EnergyPlusPgm.hh
+EnergyPlusAPI.hh
+-
+string
+-
+
