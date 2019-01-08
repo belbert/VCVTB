@@ -49,7 +49,7 @@ Additional postprocessing:
 Note:
 ------------
 
-1) VCVTB mixes the simulation order automatically to quickly have output for different ventilation strategy/family combinations. If you have other requirements you have to adjust it in the code. EnergyPlus AFN Calculations are executed in the order specified in the Runfile.txt file in the in folder.
+1) VCVTB mixes the simulation order automatically to quickly have output for different ventilation strategy/family combinations. If you have other requirements you have to adjust it in the code. EnergyPlus AFN Calculations are executed in the order specified in the Runfile.txt file in the /In folder.
 
 -------------------------------------------------------------------------------------------
 
