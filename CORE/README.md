@@ -3,7 +3,7 @@
 - This folder includes a folder with a compiled custom version of EnergyPlus that is compatible with VCVTB. 
 - This folder includes a separate folder containing the changed source files.
 
-# Changes in AirflowNetworkBalaceManager.cc
+# Changes in AirflowNetworkBalanceManager.cc
 -----
 
 1) ManageAirflowNetworkBalance() was changed to have updated input on AirflowNetwork:Distribution:Component:Duct and AirflowNetwork:MultiZone:Surface:Crack components in every calculation step.
