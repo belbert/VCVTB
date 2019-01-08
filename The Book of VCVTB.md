@@ -123,7 +123,7 @@ OUTPUT
 
         Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
 
-4.6 PostProcessing Modules and Interpretation of Results: (MySQL, Python, Pascal)
+4.6 PostProcessing Modules and Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
