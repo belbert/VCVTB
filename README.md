@@ -24,7 +24,7 @@ Remarks
 --------------------------
 
 - VCVTB v.1.0.0 is made available in this repository "As it is". 
-- An update is planned, but first my PhD text must be finalized.
+- I will try to post weekly updates until the entire platform is online, but at the moment my focus is on finalizing the text of my PhD research.
 
 Feel free to take a look around, ask questions and make suggestions. 
 
