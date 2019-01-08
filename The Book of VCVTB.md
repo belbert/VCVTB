@@ -89,7 +89,7 @@ ParallelPeople
 4.5 Using the Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
 **_This section is awaiting updates_**
-- A custom EnergyPlus version can be found in the VCVTB/CORE folder.
+- A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder.
 
 Generating Input - Lazarus.
 
