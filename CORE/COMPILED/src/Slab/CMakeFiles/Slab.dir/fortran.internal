@@ -1,0 +1,12 @@
+# The fortran modules provided by this target.
+provides
+ dataglobals
+ dataprecisionglobals
+ datastringglobals
+ eplusslab3d
+ epwprecisionglobals
+ epwread
+ epwweather
+ general
+ inputprocessor
+ simdata
