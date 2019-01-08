@@ -9,6 +9,4 @@ For privacy reasons current paths and passwords are anonymised. They will be ada
 
 In the meanwhile feel free to take a look around. 
 
-I thank you for your patience,
-
 Bert Belmans
