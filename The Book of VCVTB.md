@@ -85,9 +85,7 @@ The people model can be used to generate a library of households with variable u
 
 4.5 Airflow Network Based EnergyPlus Calculation Engine: (Custom EnergyPlus Build)
 ---------
-**_This section is under revision_**
-
-**_A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder._**
+**_This section is under revision. A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder._**
 
 - BEM-AFN Input is generated using the Lazarus PreProcessing modules.
 - A .csv file with outside CO2 levels should be included to run a simulation
