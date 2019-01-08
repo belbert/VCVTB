@@ -134,7 +134,7 @@ INPUT
 
 OUTPUT
 
-4.5 Using the Posprocessing Modules and interpreting the results: (MySQL, Python, Pascal)
+4.5 Using the PostProcessing Modules and Interpreting The Results: (MySQL, Python, Pascal)
 ---------
 **_This section is awaiting updates_**
 
