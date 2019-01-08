@@ -24,7 +24,9 @@ Remarks
 --------------------------
 
 - VCVTB v.1.0.0 is made available in this repository "As it is". 
-- Feel free to take a look around, ask questions and make suggestions. 
+- An update is planned, but first my PhD text must be finalized.
+
+Feel free to take a look around, ask questions and make suggestions. 
 
 Bert Belmans
 
