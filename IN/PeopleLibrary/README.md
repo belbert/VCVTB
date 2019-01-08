@@ -1,3 +1,4 @@
 - /3131-0 is an example folder, containing one family of the type 3131-0
 - /AERTS contains changes and additions to the Aerts Behaviour model
 - /CombinedSchedules is an example folder containing combined output for a number of families
+- copy CombinedSchedules from the CombinedSchedules Folder here to the CompiledSchedules folder in VCVTB/IN, if you want to use them for a simulation.
