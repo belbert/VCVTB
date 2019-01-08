@@ -62,13 +62,11 @@ A procedure to automate this is yet to be implemented.
 
 4.2 Using the Behaviour Model: (GNU Octave)
 ---------
-% Awaiting Update
+% This section is awaiting updates
 
 Input
 
 The behaviour model is a model to generate energyplus schedules and additional information to allow a better interpretation.
-
-%%supplement
 
 Output 
 
@@ -86,7 +84,7 @@ ParallelPeople
 
 4.3 Using the Airflow Network Model: (Custom EnergyPlus Version)
 ---------
-% Awaiting Update
+% This section is awaiting updates
 
 Generating Input - Lazarus.
 
@@ -130,7 +128,7 @@ We are working on an AI addition to VCVTB to implement random forest based contr
 
 4.4 Using the CFD Model: (OpenFOAM)
 ---------
-% Awaiting Update
+% This section is awaiting updates
 
 INPUT
 
@@ -138,7 +136,7 @@ OUTPUT
 
 4.5 Using the Posprocessing Modules and interpreting the results: (MySQL, Python, Pascal)
 ---------
-% Awaiting Update
+% This section is awaiting updates
 
 	EPLUS_2_SQL.py
 	EPLUS_2_SQL_MODES.py
@@ -151,7 +149,7 @@ OUTPUT
 
 5.0 Limitations
 -----------------
-% Awaiting Update
+% This section is awaiting updates
 
 *"All models are wrong, but some are useful" (G. Box)*
 
