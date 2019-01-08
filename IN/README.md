@@ -40,7 +40,7 @@ If everything went well you are ready to start postprocessing using the postproc
 Note:
 ------------
 
-1) VCVTB automixes simulation order to quickly have output for different ventilation strategies/families. If you have other requirements, adjust this. EnergyPlus AFN Calculations are executed in the order specified in the Command.txt file
+1) VCVTB automixes simulation order to quickly have output for different ventilation strategy/family combinations. If you have other requirements, adjust this. EnergyPlus AFN Calculations are executed in the order specified in the Command.txt file
 
 -------------------------------------------------------------------------------------------
 
