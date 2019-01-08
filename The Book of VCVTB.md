@@ -12,7 +12,7 @@ It originated from the doctoral research of ir.arch. Bert Belmans under the supe
 2) Why use VCVTB?
 -----------------
 
-Although there are programs that can be combined together to get the same job done using cosimulation they don't have a welldefined workflow. VCVTB provides a dedicated holistic approach which saves modellers the timeconsuming task of combining software programs using cosimulation, while still giving full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. Also, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of semi-probabilistic synthetic users.
+Although there are programs that can be combined together to get the same job done using co-simulation they usually don't have a straightforward workflow. VCVTB provides a dedicated holistic approach which saves modellers the time consuming task of combining software programs using co-simulation. VCVTB still gives full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. The user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of semi-probabilistic synthetic users.
 
 3) Hardware Specifications and Software Dependencies
 ----------------------------------------------------
@@ -54,11 +54,11 @@ traces			(0.4.2)
 - All files contain generic paths. They should be updated to actual file locations before running VCVTB.
 A procedure to automate this is yet to be implemented.
 
-- A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/2OUT/mysql.
+- A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/OUT/mysql.
 
-- The behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/1IN/PEOPLE LIBRARY
+- The behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/IN/PEOPLE LIBRARY
 
-- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format and must for now be rebuilt by the user or aquired from the engineering office in question (http://www.daidalospeutz.be). The procedures to generate 3D airflows is included and can be found in VCVTB/4POSTPROCESSING/3DAirflow. 
+- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now they must be rebuilt by the user or aquired from the engineering office in question (http://www.daidalospeutz.be). The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow.Dependencies must, however, be changed.
 
 4.1 Using the Behaviour Model:
 
