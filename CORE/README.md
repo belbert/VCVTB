@@ -8,7 +8,7 @@
 
 1) ManageAirflowNetworkBalance() was changed to have updated input on AirflowNetwork:Distribution:Component:Duct and AirflowNetwork:MultiZone:Surface:Crack components in every calculation step.
 
-2) CalcAirflowNetworkHeatBalance() was changed to allow flow inversion. Real64 reverseflow was added.
+2) CalcAirflowNetworkHeatBalance() was changed to allow flow inversion.
 
 3) AirflowNetwork:MultiZone:Surface:Crack object was adjusted to allow modelling of self-regulating trickle vents. Fixed flow coefficient and flow exponent input was replaced with scheduled input.
 
