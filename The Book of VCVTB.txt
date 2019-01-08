@@ -5,7 +5,8 @@ A manual to get started with the Ventilation Controls Virtual Test Bed
 1) What is VCVTB?
 -----------------
 
-VCVTB is an opensource virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. It originated from the doctoral research of ir.arch. Bert Belmans under the supervision of prof.dr.ir.arch Filip Descamps.
+VCVTB is an opensource virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. 
+It originated from the doctoral research of ir.arch. Bert Belmans under the supervision of prof.dr.ir.arch Filip Descamps.
 
 2) Why use VCVTB?
 -----------------
@@ -64,11 +65,11 @@ Input
 
 The behaviour model is a model to generate energyplus schedules and additional information to allow a better interpretation.
 
-UITLEG Dorien
+%%supplement
 
 Output 
 
-The output of the people module is a number of idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file a csv file containing the appliances of the family including their energy rating.
+The output of the people module is a number of .idf files containing schedules for presence, equipment, activity, heat, moisture and carbon dioxide + a Heatproduction.csv file a csv file containing the appliances of the family including their energy rating.
 
 The CombineSchedules.py script combines the seperate idfs for presence, equipment, activity, heat, moisture, carbon dioxide
 
@@ -140,6 +141,40 @@ OUTPUT
 	ROBUSTNESS folder
 
 5) Scientific References
+
+VCVTB Builds on reference data and approaches fom the sources below:
+
+[1] D. Aerts, Occupancy and Activity Modelling for Building Energy Demand Simulations, Comparative Feedback and Residential Electricity Demand Characterisation, Phd, Vrije Universiteit Brussel, 2015.
+[2] A. Persily, L. de Jonge, Carbon dioxide generation rates for building occupants, Indoor Air 27 (5) (2017) 868–879.
+[3] M. S. Owen (Ed.), 2017 ASHRAE Handbook - Fundamentals, W. S. Comstock, Atlanta, si edn., ISBN 1939200571, 2017.
+[4] D. M. Hargreaves, N. G. Wright, On the use of the k-e model in commercial CFD software to model the neutral atmospheric boundary layer, Journal of Wind Engineering and Industrial Aerodynamics 95 (5) (2007) 355–369.
+[5] J. Minnen, I. Glorieux, T. Pieter van Tienoven, Who works when? Towards a typology of weekly work patterns in Belgium,Time & Society 25 (3) (2016) 652–675.
+[6] Food and Agricutural Organization, Human energy requirements: Report of a Joint FAO/WHO/UNU Expert Consultation, Tech. Rep., Food and Agricutural Organization, Rome.
+[7] S. Pallin, P. Johansson, C.-E. Hagentoft, Stochastic Modeling of Moisture Supply in Dwellings based on Moisture Production and Moisture Buffering Capacity, Proceedings of Building Simulation 2011: 12th Conference of International Building Performance Simulation Association (2011) 14–16.
+[8] L. Braeckevelt, H. Cloots, H. De Kind, E. Hendrickx, BMI Bij Schoolkinderen, Tech. Rep., Agentschap Zorg & Gezondheid Vlaanderen, 2015.
+[9] L. Gisle, S. Demarest, Gezondheidsenquête 2013. Rapport 2:Gezondheidsgedrag en leefstijl, Tech. Rep., Wetenschappelijk Instituut Volksgezondheid, Brussels, doi:\bibinfo{doi}{10.1016/j.aqpro.2013.07.003}, 2014.
+[10] P. J. Richards, S. E. Norris, Appropriate boundary conditions
+for computational wind engineering models revisited, Journal of Wind Engineering and Industrial Aerodynamics 99 (4) (2011)
+257–266, ISSN 01676105, doi:\bibinfo{doi}{10.1016/j.jweia.2010.12.008}.
+[11] S. Reiter, Validation Process for CFD Simulations of Wind Around Buildings, European Built Environment CAE Conference (2008) 1–18.
+[12] D. Cóstola, B. Blocken, J. L. Hensen, Overview of pressure coefficient data in building energy simulation and airflow network
+programs, Building and Environment 44 (10) (2009) 2027–2036,ISSN 03601323, doi:\bibinfo{doi}{10.1016/j.buildenv.2009.02.006}.
+[13] M. Orme, M. Liddament, A. Wilson, Numerical Data for Air Infiltration and Natural Ventilation Calculations, Air Infiltration
+and Ventilation Centre, Coventry, ISBN 1946075972, 1998.
+[14] J. W. Eaton, D. Bateman, S. Hauberg, R. Wehbring, GNU Octave version 4.4.1 manual: a high-level interactive language for
+numerical computations, URL https://www.gnu.org/software/octave/doc/v4.4.1/, 2017.
+[15] C. G. Henry Weller, M. Janssens, OpenFOAM version 3.0.1:Open source software for computational fluid dynamics (CFD),
+URL https://openfoam.org/version/3-0-1/, 2018.
+[16] L. Gu, Airflow network modeling in EnergyPlus, in: Proceeding of the 10th International Building Performance Simulation
+Association Conference and Exhibition Building Simulation 2007, International Building Performance Simulation Association,Beijing, 964–971, 2007.
+[17] M. Schroedter-Homscheidt, The Copernicus Atmosphere Monitoring Service (CAMS) Radiation Service in a nutshell, in: 22nd 
+[18] SolarPACES Conference 2016, Abu Dhabi, 6, doi:\bibinfo{doi}{10.5194/amt-6-2403-2013.}, 2016.
+R. Gelaro, W. McCarty, M. J. Surez, R. Todling, A. Molod,L. Takacs, C. A. Randles, A. Darmenov, M. G. Bosilovich,
+R. Reichle, K. Wargan, L. Coy, R. Cullather, C. Draper,V. Akella, Santha Buchard, A. Conaty, A. M. da Silva, W. Gu,
+G. K. Kim, R. Koster, R. Lucchesi, D. Merkova, J. E. Nielsen,G. Partyka, S. Pawson, W. Putman, M. Rienecker, S. D.
+Schubert, M. Sienkiewicz, B. Zhao, The modern-era retrospective analysis for research and applications, version 2 (MERRA-2),
+Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{10.1175/JCLI-D-16-0758.1}.
+[19] U. D. of Energy, EnergyPlus v.8.8 Engineering Reference, U.S.Department of Energy, 2017.
 
 6) Epilogue
 
