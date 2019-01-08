@@ -84,7 +84,7 @@ ParallelPeople
 
 4.3 Using the Airflow Network Model: (Custom EnergyPlus Version)
 ---------
-% This section is awaiting updates
+**_This section is awaiting updates_**
 
 Generating Input - Lazarus.
 
@@ -128,7 +128,7 @@ We are working on an AI addition to VCVTB to implement random forest based contr
 
 4.4 Using the CFD Model: (OpenFOAM)
 ---------
-% This section is awaiting updates
+**_This section is awaiting updates_**
 
 INPUT
 
@@ -136,7 +136,7 @@ OUTPUT
 
 4.5 Using the Posprocessing Modules and interpreting the results: (MySQL, Python, Pascal)
 ---------
-% This section is awaiting updates
+**_This section is awaiting updates_**
 
 	EPLUS_2_SQL.py
 	EPLUS_2_SQL_MODES.py
@@ -149,7 +149,7 @@ OUTPUT
 
 5.0 Limitations
 -----------------
-% This section is awaiting updates
+**_This section is awaiting updates_**
 
 *"All models are wrong, but some are useful" (G. Box)*
 
