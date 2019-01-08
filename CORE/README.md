@@ -16,8 +16,8 @@
 
 5) The singularity check was set less strict
 
-if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-6 ) {...} was set to
-if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...}
+code(if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-6 ) {...} was set to
+if ( MA( ( i - 1 ) * AirflowNetworkNumOfNodes + i ) < 1.0e-15 ) {...})
 				
 
 # Changes in DataEnvironment.cc 
