@@ -1,30 +1,39 @@
 **_The procedure is awaiting updates_**
 
-Procedure
+Generalised Procedure
 ---------
 
-Preparations on Windows or Linux
--------------------------------------------------------------------------------------------
+Preparations 
+------------
 
+1) Create a CAD drawing using the appropriate* drawing conventions. Make sure to include AFN objects to automatically generate an airflow network in step 2.
 
-1) Create people in Octave      > Use GNU Parallel to batch create families in parallel
+2) Use the VCVTB PreProcessing tools to generate geometrical AFN input for EnergyPlus and to generate geometrical input for OpenFoam. 
 
-2) CombineSchedules.py          > Combines peopleschedules, activityschedules, CO2schedules...
+3) Create people in Octave using the behaviour module. Use GNU Parallel to batch create family libraries in parallel. Depending on the amount of families that you need this can take a while. It's interesting to create a library of families for future use. While you wait you can review the paper that was still on your desk.
 
-3) Create EMS Control scripts  > E+ inputfile zonder schedules
+4) Use CombineSchedules.py to make a single file that includes peopleschedules, activityschedules, CO2schedules... from the output of the behaviour module
 
-4) GenerateEnergyPlusInput.py 	> Creates Mixed input files and a Command.txt File
+5) Revise the auto-created EnergyPlus .idf file with the AFN. Adjust default material layers, flow exponents and flow coefficients to your liking. Make other adjustments or add things where necessary.
 
--------------------------------------------------------------------------------------------
-Linux
--------------------------------------------------------------------------------------------
+6) Revise the OpenFoam input, make adjustments and use the OpenFoam Module to automatically create a mesh and to generate a pressure distribution on the facade for various wind directions. (Waiting can be exciting, but you should go to sleep. These calculations can take a night.)
 
-5) Run.py *** 			> Run all idf's in Commands.txt in parallel using GNU Parallel. You can specify the numbers of threads to use. Without further specification all threads are used. 
+7) Good morning, grab a coffee and use the provided scripts to extract Cp values from the OpenFoam Model into EnergyPlus .idf format. If you followed the drawing guidelines this should be a matter of seconds.
 
-6) DetectSevereErrors.py 	> Generates a list with crashed simulations (Mostly errors are due to convergence issues, adapt the relaxation factors of the crashed simulations)
+8) Create EMS Control scripts for the ventilation systems you want to investigate.
 
-7) Create Graphs using PostProcessing Modules
-    
+AFN Calculations 
+------------
+9) Make sure that all input files are in the correct folders. If they are you can use GenerateEnergyPlusInput.py to create a mixed input file containing people, Cp values, AFN network components, control systems... and a Command.txt File for running
+
+10) Run.py *** > Runs all idf's in Commands.txt in parallel using GNU Parallel. You can specify the numbers of threads to use. Without further specification all threads are used. 
+
+11) After running use DetectSevereErrors.py to Generate a list with crashed simulations. Mostly errors are due to convergence issues, adapt the AFN convergence limits and rerun the crashed simulations
+
+PostProcessing
+------------
+If everything went well you are ready to start postprocessing using the provided postprocessing scripts.
+ 
 -------------------------------------------------------------------------------------------
 ***
 HOW TO BATCH RUN E+ IN PARALLEL
