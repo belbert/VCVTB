@@ -32,7 +32,7 @@ AFN Calculations
 
 10) Option B: Use ParallelRun.py to run all idf's in /In/Runfile.txt in parallel using GNU Parallel. You can specify the numbers of threads to use inside the script. Without further specification all threads are used. 
 
-11) After running use DetectSevereErrors.py to Generate a list with crashed simulations. Mostly errors are due to convergence issues, adapt the AFN convergence limits and rerun the crashed simulations if required.
+11) After running use DetectSevereErrors.py to Generate a list with crashed simulations. If errors occur it is mostly due to convergence issues in the AFN solver, adapt the AFN convergence limits in the crashed .idf file(s) and rerun if required. This can be a bit of a search for good values.  The default values used by VCVTB generally give good results.
 
 PostProcessing
 ------------
