@@ -17,7 +17,7 @@ When studying the overall performance of new and existing buildings, modellers n
 
 VCVTB was tested on a workstation with an Intel®Core™ i7-8700K CPU @ 3.70GHz × 12 processor and 32 GB RAM running Ubuntu 18.04.1 LTS 64 bit. 
 
-For an examined case study building (a detached single family house with 11 rooms in a suburban environment) it was possible to run all CFD calculations overnight. After setup, at least 50 AFN simulations could be run during the course of a working day including the automatic generation of tables and graphs. The time per simulation depends on the complexity of the model (number of zones), the complexity of the control strategy used and window control schedules. 
+For an examined case study building (a detached single family house with 11 rooms in a suburban environment) it was possible to run all CFD calculations overnight. After setup, at least 50 AFN simulations could be run during the course of a working day including the automatic generation of tables and graphs. The time per simulation mainly depends on the complexity of the model (number of zones), the complexity of the control strategy used and window control schedules. 
 
 ----------------------------------------------------
 
