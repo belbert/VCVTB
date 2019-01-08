@@ -1,0 +1,21 @@
+Appliance,NumberOfAppliance,Type,Label,Power
+HotPlate,1,Induction,,0
+Microwave,1,,,0
+Oven,1,Electrical,,0
+CoffeeMaker,1,,,0
+Fridge,1,,A++,0
+Freezer,1,,A++,0
+Dishwasher,1,,A++,0
+WashingMachine,1,,A++,0
+Dryer,1,,A++,0
+PC,1,Laptop,,75
+Modem,1,,,0
+TV,1,LCD,,150
+Radio,1,,,0
+Light,5,f<0.2,,0
+Light,5,f<0.2,,0
+Light,5,f<0.6,,0
+Light,5,f<0.4,,0
+Light,5,f<0.4,,0
+Vacuum Cleaner,1,,,800
+Iron,1,,,800
