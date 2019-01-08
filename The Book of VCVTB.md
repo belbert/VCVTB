@@ -102,11 +102,10 @@ The parametric preprocessor folder contains an In and Out folder and a Parametri
 The input file should contain the original idf file with distinct parameter names. The values for these parameters should be defined in the python script. After running the script the output folder contains idf files with all possible combinations
 
 EPW 
-	Location to store weather files
+
+Location to store weather files
 
 INPUT
-
-
 
 CombinedSchedules folder: Should contain all households to add to the ventilationsystems
 CombinedIDF folder: Temporary folder that is automatically filled and cleaned
@@ -119,7 +118,8 @@ GenerateEnergyPlusInput.py: This script is used to make combine idfs containing 
 CreateRuns.py: This script is used after the GenerateEnergyPlusInput script to generate corresponding python files and a Runfile.txt. The python files contain serial commands to run EnergyPlus simulations and store them in a MySQL database. The Runfile is an input file for GNU parallel that allows parallel execution of multiple simulations using the command ParallelRun.py ("parallel < Runfile.txt") script. Gnu parallels takes care of using all threads of the processor. Once one thread is ready, the next line in the Runfile.txt is executed untill all simulations are ready.
 
 OUTPUT
-        The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
+
+The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
 
 Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
 
@@ -130,15 +130,6 @@ Power.py This script does a pressure loss calculation for the ductwork and calcu
 - /POSTPROCESSING/REPORTSHEET: VCVTB Report Sheets
 - /POSTPROCESSING/3DAIRFLOW: 3D DXF Airflow Drawings
 - /POSTPROCESSING/COMPARATIVETABLE: VCVTB Comparative Tables
-
-EPLUS_2_SQL.py
-EPLUS_2_SQL_MODES.py
-EPLUS_2_SQL_MODES_AFTER.py
-LAZARUS Airflow script
-
-BENCHMARK folder
-BOXPLOT folder
-ROBUSTNESS folder
 	
 4.7 Forests Module
 ---------
