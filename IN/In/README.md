@@ -1,2 +1,2 @@
 
-This folder should include the idf files for running AFN calculations.
+This folder should include the combined .idf files for initializing AFN calculations.
