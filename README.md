@@ -3,13 +3,12 @@ Welcome to the github repository of VCVTB, The Ventilation Controls Virtual Test
 
 VCVTB is an opensource EnergyPlus version 8 based virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. It originates from the doctoral research of ir. arch. Bert Belmans under the supervision of prof. dr. ir. arch. Filip Descamps.
 
-- VCVTB has a folder-based OpenFoam-like setup
-- Due to the size of the test bed comments, paths and files will be added, updated and translated in English on a dropwise basis.
-- For privacy reasons current paths and passwords are anonymised. They will be adapted to generic paths in the future.
-- A compiled custom EnergyPlus version can be found in the CORE Folder.
 - The Book of VCVTB provides a first overview of functionalities and dependencies.
+- A compiled custom EnergyPlus version can be found in the CORE Folder.
+- VCVTB has a folder-based OpenFoam-like setup. For privacy reasons current paths and passwords are anonymised. They will be adapted to generic paths in the future.
+- Due to the size of the test bed comments, paths and files will be added, updated and translated in English on a dropwise basis.
 
-An Original Research Paper containing an overview of VCVTB and the reason why it was created was recently submitted to the international journal "Building and Environment. At the moment it is pending for approval. Upon acceptance, a reference will be placed here.
+An Original Research Paper containing an overview of VCVTB and the reason why it was created was recently submitted to the international journal "Building and Environment. At the moment it is pending for approval. Upon acceptance, a reference will be placed here. It is titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies."
 
 A doctoral thesis concerning VCVTB will also be made available after the public defence. This will hopefully happen end March/ early April 2019.
 
