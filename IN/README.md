@@ -39,10 +39,12 @@ PostProcessing
 If everything went well and if MySQL is correctly linked (Make sure the MySQL server is running!) EnergyPlus output is automatically transferred to MySQL.
 Automatic PostProcessing in the form of VCVTB Report Sheets can be performed. I usually comment this out to have more control over the process unless I want to do comparative studies. 
 
-Additional postprocessing:
+Additional postprocessing tools apart from VCVTB Report Sheets:
     
-- 3D DXF Airflow Drawings
-- VCVTB Comparative Tables
+- 3D DXF Airflow Drawings > extracts one timestep from a MySQL AFN database and creates a 3D airflow model of the situation.
+- VCVTB Comparative Tables > generates (a) table(s) to compare ventilation strategies.
+- Boxplot > Graphical way to compare the robustness of strategies
+- (Performance Labels) **_under development_**
 
 
 
