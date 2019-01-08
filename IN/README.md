@@ -30,7 +30,7 @@ AFN Calculations
 
 10) Option A: Use /In/XX.py to run a specific idf file
 
-10) Option B: Use ParallelRun.py to runs all idf's in /In/Runfile.txt in parallel using GNU Parallel. You can specify the numbers of threads to use inside the script. Without further specification all threads are used. 
+10) Option B: Use ParallelRun.py to run all idf's in /In/Runfile.txt in parallel using GNU Parallel. You can specify the numbers of threads to use inside the script. Without further specification all threads are used. 
 
 11) After running use DetectSevereErrors.py to Generate a list with crashed simulations. Mostly errors are due to convergence issues, adapt the AFN convergence limits and rerun the crashed simulations if required.
 
