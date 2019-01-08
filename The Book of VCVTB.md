@@ -9,8 +9,7 @@ It originated from the doctoral research of ir.arch. Bert Belmans under the supe
 
 2) Why was VCVTB created?
 -----------------
-
-Although there are programs that can be combined together to get the same job done using co-simulation they usually don't have a straightforward workflow. VCVTB provides a dedicated holistic approach which saves modellers the time consuming task of combining software programs for BEM and AFN modelling using co-simulation. VCVTB still gives full control, by allowing source code level adjustments. In addition VCVTB provides intuitive output. Moreover, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of synthetic users.
+When studying the overall performance of new and existing buildings, modellers need tools to simultaneously consider building energy use as well as user related aspects such as thermal comfort and indoor air quality. VCVTB focusses on a part of this, namely the balance between energy use, indoor air quality and user comfort. It was created to study the potential of complex mixed-mode ventilation systems to decrease auxiliary energy use by reappraising the value of natural ventilation and focusing on adaptive comfort. Although there are state of the art programs that can be combined together to get this job done using co-simulation, they usually don't have a straightforward workflow and researchers must come up with their own custom solutions. In the research field, there was a demand for dedicated simulation tools to stimulate application-oriented research. VCVTB attempts to answer this demand. It provides a dedicated holistic approach which saves modellers the time consuming task of combining software programs for BEM and AFN modelling using co-simulation. Moreover, the user model in VCVTB is unique. It allows semi-probabilistic modelling of heat, moisture and carbon dioxide production of synthetic users. By allowing source code level adjustments, VCVTB still gives full control. In addition VCVTB provides intuitive output. 
 
 3) Hardware Specifications and Software Dependencies
 ----------------------------------------------------
@@ -54,9 +53,9 @@ A procedure to automate this is yet to be implemented.
 
 - A local MySQl installation is needed before proceeding. The local mysql folder in which databases are stored should be mounted in VCVTB/OUT/mysql.
 
-- The behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/IN/PEOPLE LIBRARY
+- The original behaviour model of Aerts should for now be aquired from the owner. Updated procedures can be found in the VCVTB/IN/PEOPLE LIBRARY
 
-- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now they must be rebuilt by the user or aquired from the engineering office in question (http://www.daidalospeutz.be). The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow.Dependencies must, however, be changed.
+- The Pascal routines used to generate some of the input and output are based on routines of Daidalos Peutz Bouwfysisch Ingenieursbureau. They are not included in this first build but may be made available in an updated version. These routines read geometric information based on the .DXF12 format. For now similar routines must be rebuilt by the user. The pascal procedure to generate 3D airflows is included in VCVTB/POSTPROCESSING/3DAirflow.Dependencies must however, be changed.
 
 4.1 Using the Behaviour Model:
 
