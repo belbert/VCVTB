@@ -3,7 +3,7 @@ Welcome to the github repository of VCVTB, The Ventilation Controls Virtual Test
 
 VCVTB is an opensource EnergyPlus version 8 based virtual test bed for the accelerated modelling, testing and comparing of single and mixed mode ventilation systems and their control strategies. It originates from the doctoral research of ir. arch. Bert Belmans under the supervision of prof. dr. ir. arch. Filip Descamps.
 
-A Few Points of Attention
+Points of Attention
 --------------------------
 
 - The Book of VCVTB provides a first overview of functionalities and dependencies.
