@@ -92,10 +92,9 @@ ParallelPeople
 
 **_A custom EnergyPlus version and an overview of changes made to the original code can be found in the VCVTB/CORE folder._**
 
-Generating Input - Lazarus.
-
-BUILD contains an enhanced version of energyplus for Airflow network simulations
-
+- BEM-AFN Input is generated using the Lazarus PreProcessing modules.
+- A .csv file with outside CO2 levels should be included to run a simulation
+- A clothing .csv file (clo) should be included to run a simulation
 
 PARAMETRICPREPROCESSOR
 
@@ -104,8 +103,6 @@ The input file should contain the original idf file with distinct parameter name
 
 EPW 
 	Location to store weather files
-
-OUTSIDE CO2 and CLOTHING csv file
 
 INPUT
 
@@ -121,16 +118,10 @@ INPUT
 	
         CreateRuns.py: This script is used after the GenerateEnergyPlusInput script to generate corresponding python files and a Runfile.txt. The python files contain serial commands to run EnergyPlus simulations and store them in a MySQL database. The Runfile is an input file for GNU parallel that allows parallel execution of multiple simulations using the command ParallelRun.py ("parallel < Runfile.txt") script. Gnu parallels takes care of using all threads of the processor. Once one thread is ready, the next line in the Runfile.txt is executed untill all simulations are ready.
 
-       
-
 OUTPUT
         The Out folder contains the simulation results of all excecuted simulations. A selection of the 	data in this folder is already stored in the MySQL database. However, the data is kept here to 		check for errors. To detect folders containing errors you can use DetectSevereErrors.py. Once 	this is done the oUT folder can be Cleaned using the CleanUp.py script. 
 
         Power.py This script does a pressure loss calculation for the ductwork and calculates the energy use of the supply and the extract fan. Currently it is only useful for the casestudy. It has yet to be made generally applicable for other configurations of ductwork and fans with other caracteristics using the 3D procedures mentioned above.
-
-FORESTS
-
-We are working on an AI addition to VCVTB to implement random forest based control algorithm for mixed-mode ventilation
 
 4.6 PostProcessing Modules and Interpretation of Results: (MySQL, Python, Pascal)
 ---------
@@ -144,6 +135,12 @@ We are working on an AI addition to VCVTB to implement random forest based contr
 	BENCHMARK folder
         BOXPLOT folder
 	ROBUSTNESS folder
+	
+4.7 Forests
+---------
+**_This section is awaiting updates_**
+
+We are working on an addition to implement random forest based control algorithms into VCVTB. Random forests is an ensemble learning method from the field of artificial intelligence.
 
 5.0 Limitations
 -----------------
