@@ -16,4 +16,5 @@ A doctoral thesis concerning VCVTB will also be made available after the public 
 Until now, VCVTB v.1.0.0 is made available in this repository "As it is". In the meanwhile feel free to take a look around and to ask questions. 
 
 Bert Belmans
+
 bert.belmans@vub.be
