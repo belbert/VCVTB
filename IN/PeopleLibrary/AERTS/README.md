@@ -4,47 +4,47 @@ Adaptions and Additions to the Aerts Behaviour Model
 New Modules/functions:
 ----------------------
 
-ExportToEnergyPlusCustom.m
-GetCustomSchedules.m
-GetMemberMetabolism.m
-GetMemberSurfaceArea.m
-GetMoistureProduction.m
-CheckAvailability.m
-GetApplianceCount.m
+- ExportToEnergyPlusCustom.m
+- GetCustomSchedules.m
+- GetMemberMetabolism.m
+- GetMemberSurfaceArea.m
+- GetMoistureProduction.m
+- CheckAvailability.m
+- GetApplianceCount.m
 
 Updated Modules:
 ----------------
-Model_Analysis.m 
-Model_Type.m 
-AnalysePersonalActivitys_TYPE.m
-AnalyseTask_Type.m
-AssignTaskToIndividual.m
-CheckActivitiesCompatibilities.m
-CheckTaskCompatibility.m
-CheckCompatibilities.m
-ExportToEnergyPlusIntervalOneZone.m
-GetApplianceConsumption.m --> Limit number of appliances, Fix appliance Labels
-GetApplianceOwnershipDistribution.m
-GetAppliances.m --> Added linking
-GetClusterNonWorking.m
-GetClusterWorking.m
-GetEnergyConsumption.m
-GetHouseholdActivityPattern.m
-GetHouseholdOccupancyPattern.m
-HouseHoldSelection.m
-HouseHoldSelectionECS.m
-GetMemberType.m
-GetRoutineAgeBin.m
-GetRoutineCluster.m
-GetWeightedData.m
-PlotAverageDailyDistribution.m
-PloatLoadDistribution.m
-ReadActivityFile.m
-ReadECSInput.m
-SimulateHouseholds
-SimulateActivities.m
-SimulateOccupancy.m
-SimulateTasks.m
-WriteAvgActAnnual.m
-WriteAvgOccAnnual.m
-WriteGlobalOutput.m
+- Model_Analysis.m 
+- Model_Type.m 
+- AnalysePersonalActivitys_TYPE.m
+- AnalyseTask_Type.m
+- AssignTaskToIndividual.m
+- CheckActivitiesCompatibilities.m
+- CheckTaskCompatibility.m
+- CheckCompatibilities.m
+- ExportToEnergyPlusIntervalOneZone.m
+- GetApplianceConsumption.m --> Limit number of appliances, Fix appliance Labels
+- GetApplianceOwnershipDistribution.m
+- GetAppliances.m --> Added linking
+- GetClusterNonWorking.m
+- GetClusterWorking.m
+- GetEnergyConsumption.m
+- GetHouseholdActivityPattern.m
+- GetHouseholdOccupancyPattern.m
+- HouseHoldSelection.m
+- HouseHoldSelectionECS.m
+- GetMemberType.m
+- GetRoutineAgeBin.m
+- GetRoutineCluster.m
+- GetWeightedData.m
+- PlotAverageDailyDistribution.m
+- PloatLoadDistribution.m
+- ReadActivityFile.m
+- ReadECSInput.m
+- SimulateHouseholds
+- SimulateActivities.m
+- SimulateOccupancy.m
+- SimulateTasks.m
+- WriteAvgActAnnual.m
+- WriteAvgOccAnnual.m
+- WriteGlobalOutput.m
