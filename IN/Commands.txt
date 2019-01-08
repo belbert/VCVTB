@@ -1,4 +1,0 @@
-./energyplus -w /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/Epw/in.epw -d /media/ARCHmeet/Out/EPW/VentSys2D-HH-3131-0-N1 -p VentSys2D-HH-3131-0-N1 -r /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/In/VentSys2D-HH-3131-0-N1.idf
-./energyplus -w /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/Epw/in.epw -d /media/ARCHmeet/Out/EPWB/VentSys1D-HH-3131-0-N1 -p VentSys1D-HH-3131-0-N1 -r /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/In/VentSys1D-HH-3131-0-N1.idf
-./energyplus -w /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/Epw/in.epw -d /media/ARCHmeet/Out/EPWC/VentSys2D-HH-4142-2-N1 -p VentSys2D-HH-4142-2-N1 -r /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/In/VentSys2D-HH-4142-2-N1.idf
-./energyplus -w /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/Epw/in.epw -d /media/ARCHmeet/Out/EPWD/VentSys1D-HH-4142-2-N1 -p VentSys1D-HH-4142-2-N1 -r /home/generic/EnergyPlus/COMPILED/TestEnergyPlus/In/VentSys1D-HH-4142-2-N1.idf
