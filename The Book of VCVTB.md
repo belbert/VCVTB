@@ -141,6 +141,7 @@ OUTPUT
 	ROBUSTNESS folder
 
 5) Scientific References
+-----------------
 
 VCVTB Builds on reference data and approaches fom the sources below:
 
@@ -191,7 +192,9 @@ Journal of Climate 30 (14) (2017) 5419–5454, ISSN 08948755,doi:\bibinfo{doi}{1
 [19] U. D. of Energy, EnergyPlus v.8.8 Engineering Reference, U.S.Department of Energy, 2017.
 
 6) Epilogue
+-----------------
 
 7) License Information
+-----------------
 
 VCVTB is pending for a NonCommercial creative Commons License 
