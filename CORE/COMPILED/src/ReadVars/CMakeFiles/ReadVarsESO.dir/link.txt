@@ -1,0 +1,1 @@
+/usr/bin/f95      -pthread  -static -O3 CMakeFiles/ReadVarsESO.dir/ReadVarsESO.f90.o  -o ../../Products/ReadVarsESO -rdynamic 
