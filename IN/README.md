@@ -57,8 +57,6 @@ Note:
 
 2) Use the following rules to run GNU parallel externally
 
-For example:
-
 - parallel < xxx.txt                 #Runs a simulation on all available threads
 - parallel --eta < xxx.txt 		#Runs a simulation with an estimated runtime (not very precise)
 - parallel --jobs 2 < xxx.txt	#Runs a simulation with a maximum number of parallel jobs e.g. to avoid thermal throttling/shutdown
