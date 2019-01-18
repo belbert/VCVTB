@@ -5,6 +5,10 @@ VCVTB is an opensource EnergyPlus version 8 based virtual test bed for the accel
 
 Although VCVTB is fully functional, a lot of manual adjustments are still needed during use. It should be seen as a research tool and a proof of concept/pathway to integrated software for designing and assessing ventilation strategies.
 
+News
+--------------------------
+18/01/2019: An original research paper on VCVTB titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies" was accepted by the international journal 'Building and Environment".
+
 Points of Attention
 --------------------------
 
