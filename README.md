@@ -18,7 +18,7 @@ Referencing
 
 For now please reference VCVTB by referring to this repository.
 
-An Original Research Paper containing an overview of VCVTB and the reason why it was created was recently submitted to the international journal "Building and Environment. At the moment it is pending for approval. Upon acceptance, a reference will be placed here. It is titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies."
+An Original Research Paper containing an overview of VCVTB and the reason why it was created was recently submitted to the international journal "Building and Environment. At the moment it is accepted. Upon publication, a reference will be placed here. It is titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies."
 
 A doctoral thesis concerning VCVTB will also be made available after the public PhD defence. This will hopefully happen end March/ early April 2019.
 
