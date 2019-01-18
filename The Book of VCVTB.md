@@ -48,7 +48,7 @@ VCVTB was tested with the software dependencies mentioned below.
 
 4.0 Workflow
 ---------
-A simplified representation of the necessary steps for a complete VCVTB simulation is given in the README file of the VCVTB/IN folder
+A simplified representation of the necessary steps for a complete VCVTB simulation is given in the README file of the VCVTB/IN folder.
  
 4.1 Points of Attention
 ---------
