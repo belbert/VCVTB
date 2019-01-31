@@ -18,7 +18,7 @@ Timeline
 
 - 21/10/2018: An original research paper on VCVTB titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies" was submitted to the international peer-reviewed journal 'Building and Environment". 
 
-- 14/03/2017: AIVC workshop on IAQ metrics in Brussels: Birth of the current version of VCTVB with AFN calculations in every timestep, and inclusion of detailed user behaviour.
+- 14/03/2017: AIVC workshop on IAQ metrics in Brussels: Birth of the current version of VCTVB with integrated AFN calculations in every timestep, and inclusion of detailed user behaviour.
 
 - 01/01/2014: Start of PhD Research at Vrije Universiteit Brussel after having worked as an architect for two years. 
 
