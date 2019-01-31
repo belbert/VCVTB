@@ -20,7 +20,7 @@ Timeline
 
 - 14/03/2017: AIVC workshop on IAQ metrics in Brussels: Birth of the current version of VCTVB with AFN calculations in every timestep, and inclusion of detailed user behaviour.
 
-- 01/01/2014: Start of the Research Project.
+- 01/01/2014: Start of PhD Research Project at Vrije Universiteit Brussel.
 
 Points of Attention
 --------------------------
