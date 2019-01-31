@@ -14,7 +14,7 @@ Timeline
 
 - 7/01/2019: The VCVTB paper was revised and resubmitted to Building and Environment.
 
-- 22/10/2018: My grandfather, the greatest supporter of this research, still had the chance to read the submitted version in hospital. He passed away on 23/10. VCVTB is dedicated to him as a last tribute to a great person.
+- 22/10/2018: My grandfather, the greatest supporter of this research, had the chance to read the submitted version in hospital. He passed away on 23/10. VCVTB is dedicated to him as a last tribute to a great person and an eternal source of inspiration.
 
 - 21/10/2018: An original research paper on VCVTB titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies" was submitted to the international peer-reviewed journal 'Building and Environment". 
 
