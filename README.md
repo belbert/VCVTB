@@ -8,9 +8,13 @@ Although VCVTB is fully functional, a lot of manual adjustments are still needed
 Timeline
 --------------------------
 
-- 24/01/2019: VCVTB paper available online. Free access by clicking this link before March 21, 2019: https://lnkd.in/dCVkSzg
+- 24/01/2019: The VCVTB paper is available online. Free access by clicking this link before March 21, 2019: https://lnkd.in/dCVkSzg
 
-- 17/01/2019: An original research paper on VCVTB titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies" was accepted by the international journal 'Building and Environment".
+- 17/01/2019: The VCVTB paper was accepted by Building and Environment.
+
+- 7/01/2019: The VCVTB paper was revised and resubmitted to Building and Environment.
+
+- 21/10/2018: An original research paper on VCVTB titled "Set-up and Evaluation of a Virtual Test Bed for Simulating and Comparing Single-and Mixed-Mode Ventilation Strategies" was submitted to the international peer-reviewed journal 'Building and Environment". 
 
 Points of Attention
 --------------------------
