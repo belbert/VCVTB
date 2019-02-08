@@ -158,7 +158,18 @@ A different kind of limitation is that I am a self-learned programmer. Therefore
 
 VCVTB is pending for a NonCommercial creative Commons License.
 Feel free to use and adapt the code, but please make a reference. It is greatly appreciated.
-For now you can refer to this github page, once a paper is accepted, please refer to the paper.
+Please reference VCVTB by citing this paper:
+
+B. Belmans, D. Aerts, S. Verbeke, A. Audenaert, F. Descamps,
+Set-up and evaluation of a virtual test bed for simulating and comparing single- and mixed-mode ventilation strategies,
+Building and Environment,
+Volume 151,
+2019,
+Pages 97-111,
+ISSN 0360-1323,
+https://doi.org/10.1016/j.buildenv.2019.01.027.
+(http://www.sciencedirect.com/science/article/pii/S0360132319300290)
+
 
 Don't forget to include the below EnergyPlus reference if you are planning to redistribute adapted versions.
 
