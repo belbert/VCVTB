@@ -47,7 +47,7 @@ ISSN 0360-1323,
 https://doi.org/10.1016/j.buildenv.2019.01.027.
 (http://www.sciencedirect.com/science/article/pii/S0360132319300290)
 
-A doctoral thesis concerning VCVTB will also be made available after the public PhD defence. This will hopefully happen end March/ early April 2019.
+A doctoral thesis on VCVTB is in preparation. 
 
 Remarks
 --------------------------
