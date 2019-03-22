@@ -8,7 +8,7 @@ Although VCVTB is fully functional, a lot of manual adjustments are still needed
 Timeline
 --------------------------
 
-- 24/01/2019: The VCVTB paper is available online. Free access by clicking this link before March 21, 2019: https://lnkd.in/dCVkSzg
+- 24/01/2019: The VCVTB paper is available online: https://doi.org/10.1016/j.buildenv.2019.01.027
 
 - 17/01/2019: The VCVTB paper was accepted by Building and Environment.
 
